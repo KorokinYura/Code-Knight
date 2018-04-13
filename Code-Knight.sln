@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code-Knight", "Code-Knight.csproj", "{B5EFFB81-826B-F94F-BACD-09E467890B3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5EFFB81-826B-F94F-BACD-09E467890B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EFFB81-826B-F94F-BACD-09E467890B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EFFB81-826B-F94F-BACD-09E467890B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EFFB81-826B-F94F-BACD-09E467890B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

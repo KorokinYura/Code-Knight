@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using MapMaker;
 
 public class MapObjectUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -28,6 +29,12 @@ public class MapObjectUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         GameObject obj = Instantiate(MapMakerController.Instance.MapObjectsPrefabs[(int)type], MapMakerController.Instance.Map.transform);
         DragObj = obj;
+        
+        Destroy(obj.GetComponent<Collider2D>());
+        obj.AddComponent<MapObjectController>().Type = type;
+        BoxCollider2D c = obj.AddComponent<BoxCollider2D>();
+        c.isTrigger = true;
+        c.enabled = false;
     }
 
     public void OnPointerUp(PointerEventData eventData)
@@ -38,13 +45,9 @@ public class MapObjectUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
         else
         {
-            DragObj.transform.position += new Vector3(0, 0, 9.5f);
+            DragObj.GetComponent<BoxCollider2D>().enabled = true;
+            //DragObj.transform.position += new Vector3(0, 0, 9.5f);
         }
         DragObj = null;
-    }
-
-    private enum MapObjectType
-    {
-        Ground, Obstacle, Aim, Player
     }
 }

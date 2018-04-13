@@ -16,10 +16,13 @@ public class CameraController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     [SerializeField]
     private float minCamSize, maxCamSize;
 
+    public static bool CanControlCamera { get; set; }
+
     private bool pointerIsDown = false;
 
     private void Start()
     {
+        CanControlCamera = true;
         cam = Camera.main;
     }
 
@@ -30,7 +33,7 @@ public class CameraController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     private void CheckTouches()
     {
-        if (pointerIsDown)
+        if (pointerIsDown && CanControlCamera)
         {
             if (Input.touchCount == 1)
             {
