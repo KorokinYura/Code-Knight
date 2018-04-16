@@ -38,6 +38,8 @@ public class CommandUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
                 return new TurnLeft(go);
             case Command.Type.TurnRight:
                 return new TurnRight(go);
+            case Command.Type.Wait:
+                return new Wait(go);
             default:
                 return null;
         }
@@ -52,7 +54,7 @@ public class CommandUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
             
             StartDrag(cmd.GetComponent<CommandUI>());
         }
-        else if(transform.parent.gameObject == GameController.Instance.CommandsList)
+        else if(transform.parent.gameObject == GameController.Instance.CurCommandsList)
         {
             transform.SetParent(GameController.Instance.CommandsDrag.transform);
 
@@ -65,15 +67,15 @@ public class CommandUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         {
             if (CommandsList.PointerIsInside)
             {
-                DragCmd.transform.SetParent(GameController.Instance.CommandsList.transform);
-                DragCmd.transform.SetSiblingIndex(GameController.Instance.CommandsList.GetComponent<CommandsList>().CmdPlaceHolderIndex);
+                DragCmd.transform.SetParent(GameController.Instance.CurCommandsList.transform);
+                DragCmd.transform.SetSiblingIndex(GameController.Instance.CurCommandsList.GetComponent<CommandsList>().CmdPlaceHolderIndex);
 
                 EndDrag(DragCmd);
                 DragCmd = null;
             }
             else if(pointerIsInside)
             {
-                DragCmd.transform.SetParent(GameController.Instance.CommandsList.transform);
+                DragCmd.transform.SetParent(GameController.Instance.CurCommandsList.transform);
 
                 EndDrag(DragCmd);
                 DragCmd = null;

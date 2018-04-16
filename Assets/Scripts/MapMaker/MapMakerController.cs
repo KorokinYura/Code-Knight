@@ -57,7 +57,7 @@ public class MapMakerController : MonoBehaviour
             try
             {
                 string[] s = strs[i].Split(',');
-                GameObject obj = Instantiate(MapObjectsPrefabs[(int)(MapObjectType)Enum.Parse(typeof(MapObjectType), s[0])]);
+                GameObject obj = Instantiate(MapObjectsPrefabs[(int)(MapObjectType)Enum.Parse(typeof(MapObjectType), s[0])], map.transform);
                 obj.transform.position = new Vector2(
                     Int32.Parse(s[1]),
                     Int32.Parse(s[2])

@@ -292,6 +292,7 @@
     <Compile Include="Assets\Scripts\GamePlay\Commands\TurnLeft.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\TurnRight.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\UI\CommandUI.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\Commands\Wait.cs" />
     <Compile Include="Assets\Scripts\GamePlay\CommandsList.cs" />
     <Compile Include="Assets\Scripts\GamePlay\GameController.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Player.cs" />

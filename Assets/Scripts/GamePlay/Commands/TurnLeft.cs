@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class TurnLeft : Command
 {
-    public TurnLeft(GameObject player) : base(player) { }
+    public TurnLeft(GameObject obj) : base(obj) { }
 
     public override bool Use(float time = 0)
     {
-        player.transform.localEulerAngles += new Vector3(0, 0, 90);
+        obj.transform.localEulerAngles += new Vector3(0, 0, 90);
 
         return true;
     }

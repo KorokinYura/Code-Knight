@@ -13,9 +13,9 @@ public class Player : MonoBehaviour
 
     private IEnumerator CommandsCoroutine(float tickTime)
     {
-        CommandUI[] cmds = GameController.Instance.CommandsList.GetComponentsInChildren<CommandUI>();
-
-        foreach (CommandUI c in cmds)
+        List<CommandUI> cmds = new List<CommandUI>(GameController.Instance.GetCommandUIs());
+        
+        foreach (CommandUI c in GameController.Instance.GetCommandUIs())
         {
             yield return new WaitForSeconds(tickTime);
             c.CreateInstance(gameObject).Use(0);

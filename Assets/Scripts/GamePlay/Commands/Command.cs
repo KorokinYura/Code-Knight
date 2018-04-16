@@ -4,17 +4,17 @@ using UnityEngine;
 
 public abstract class Command
 {
-    protected GameObject player;
+    protected GameObject obj;
 
-    public Command(GameObject player)
+    public Command(GameObject obj)
     {
-        this.player = player;
+        this.obj = obj;
     }
 
     public abstract bool Use(float time);
 
     public enum Type
     {
-        GoForward, TurnLeft, TurnRight
+        GoForward, TurnLeft, TurnRight, Wait, Func1, Func2
     }
 }

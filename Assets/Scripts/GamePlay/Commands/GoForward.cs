@@ -8,12 +8,12 @@ public class GoForward : Command
 
     public override bool Use(float time = 0)
     {
-        RaycastHit2D hit = Physics2D.Raycast(player.transform.right * 0.55f + player.transform.position, player.transform.right, 0.9f);
+        RaycastHit2D hit = Physics2D.Raycast(obj.transform.right * 0.55f + obj.transform.position, obj.transform.right, 0.9f);
         if (hit.transform != null && hit.transform.gameObject.tag == "Obstacle")
         {
             return false;
         }
-        player.transform.position += player.transform.right;
+        obj.transform.position += obj.transform.right;
         return true;
     }
 }

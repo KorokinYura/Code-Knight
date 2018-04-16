@@ -5,8 +5,16 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     [SerializeField]
-    private GameObject commandsList;
-    public GameObject CommandsList { get { return commandsList; } }
+    private int maxCommandsAmount;
+    [Space]
+    [SerializeField]
+    private GameObject mainCommandsList;
+    [SerializeField]
+    private GameObject func1CommandsList;
+    [SerializeField]
+    private GameObject func2CommandsList;
+    public GameObject CurCommandsList { get; private set; }
+    [Space]
     [SerializeField]
     private GameObject commandsPool;
     public GameObject CommandsPool { get { return commandsPool; } }
@@ -26,6 +34,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         tickController = GetComponent<TickController>();
+        CurCommandsList = mainCommandsList;
     }
 
     public void StartLevel()
@@ -35,6 +44,59 @@ public class GameController : MonoBehaviour
     }
     public void ResetLevel()
     {
+        // needs to be implemented
+    }
 
+    public void ShowCommandList(int index)
+    {
+        mainCommandsList.SetActive(false);
+        func1CommandsList.SetActive(false);
+        func2CommandsList.SetActive(false);
+
+        switch (index)
+        {
+            case 0:
+                mainCommandsList.SetActive(true);
+                CurCommandsList = mainCommandsList;
+                break;
+            case 1:
+                func1CommandsList.SetActive(true);
+                CurCommandsList = func1CommandsList;
+                break;
+            case 2:
+                func2CommandsList.SetActive(true);
+                CurCommandsList = func2CommandsList;
+                break;
+            default:
+                goto case 1;
+        }
+    }
+    public IEnumerable<CommandUI> GetCommandUIs()
+    {
+        CommandUI[] arr = mainCommandsList.GetComponentsInChildren<CommandUI>();
+        int amount = maxCommandsAmount;
+        return GetRecCommandUIs(arr, ref amount);
+    }
+
+    private List<CommandUI> GetRecCommandUIs(CommandUI[] arr, ref int amount)
+    {
+        List<CommandUI> list = new List<CommandUI>();
+        for (int i = 0; i < amount; i++)
+        {
+            if (i == arr.Length) break;
+            if (arr[i].Type == Command.Type.Func1)
+            {
+                amount -= i++;
+                list.AddRange(GetRecCommandUIs(func1CommandsList.GetComponentsInChildren<CommandUI>(), ref amount));
+            }
+            else if (arr[i].Type == Command.Type.Func2)
+            {
+                amount -= i++;
+                list.AddRange(GetRecCommandUIs(func2CommandsList.GetComponentsInChildren<CommandUI>(), ref amount));
+            }
+            if (i == arr.Length) break;
+            list.Add(arr[i]);
+        }
+        return list;
     }
 }
