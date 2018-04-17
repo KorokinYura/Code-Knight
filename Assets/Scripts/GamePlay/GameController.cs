@@ -81,21 +81,25 @@ public class GameController : MonoBehaviour
     private List<CommandUI> GetRecCommandUIs(CommandUI[] arr, ref int amount)
     {
         List<CommandUI> list = new List<CommandUI>();
-        for (int i = 0; i < amount; i++)
+        for (int i = 0; i < arr.Length; i++)
         {
             if (i == arr.Length) break;
             if (arr[i].Type == Command.Type.Func1)
             {
-                amount -= i++;
+                //amount -= i;
                 list.AddRange(GetRecCommandUIs(func1CommandsList.GetComponentsInChildren<CommandUI>(), ref amount));
             }
             else if (arr[i].Type == Command.Type.Func2)
             {
-                amount -= i++;
+                //amount -= i;
                 list.AddRange(GetRecCommandUIs(func2CommandsList.GetComponentsInChildren<CommandUI>(), ref amount));
             }
-            if (i == arr.Length) break;
-            list.Add(arr[i]);
+            else
+            {
+                if (amount == 0) break;
+                list.Add(arr[i]);
+                amount--;
+            }
         }
         return list;
     }

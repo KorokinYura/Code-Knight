@@ -2562,7 +2562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f77dfef98db9c34bb334345a67d96a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxCommandsAmount: 50
+  maxCommandsAmount: 30
   mainCommandsList: {fileID: 2020334704}
   func1CommandsList: {fileID: 92675543}
   func2CommandsList: {fileID: 855727754}
