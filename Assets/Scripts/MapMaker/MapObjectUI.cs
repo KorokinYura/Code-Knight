@@ -27,14 +27,21 @@ public class MapObjectUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        GameObject obj = Instantiate(MapMakerController.Instance.MapObjectsPrefabs[(int)type], MapMakerController.Instance.Map.transform);
+        GameObject obj = CreateMapMakerCommand(type);
+        obj.GetComponent<BoxCollider2D>().enabled = false;
         DragObj = obj;
-        
+    }
+
+    public static GameObject CreateMapMakerCommand(MapObjectType type)
+    {
+        GameObject obj = Instantiate(MapMakerController.Instance.MapObjectsPrefabs[(int)type], MapMakerController.Instance.Map.transform);
+
         Destroy(obj.GetComponent<Collider2D>());
         obj.AddComponent<MapObjectController>().Type = type;
         BoxCollider2D c = obj.AddComponent<BoxCollider2D>();
         c.isTrigger = true;
-        c.enabled = false;
+
+        return obj;
     }
 
     public void OnPointerUp(PointerEventData eventData)

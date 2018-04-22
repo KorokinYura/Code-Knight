@@ -288,7 +288,6 @@
     <Compile Include="Assets\Scripts\GamePlay\CameraController.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\Command.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\GoForward.cs" />
-    <Compile Include="Assets\Scripts\GamePlay\Commands\TickController.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\TurnLeft.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\TurnRight.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\UI\CommandUI.cs" />
@@ -296,6 +295,8 @@
     <Compile Include="Assets\Scripts\GamePlay\CommandsList.cs" />
     <Compile Include="Assets\Scripts\GamePlay\GameController.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Player.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\PointerDownUpTrigger.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\TickController.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapMaker.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapMakerController.cs" />

@@ -44,7 +44,8 @@ public class GameController : MonoBehaviour
     }
     public void ResetLevel()
     {
-        // needs to be implemented
+        MapMakerController.Instance.LoadMap(false);
+        tickController.StopTicks();
     }
 
     public void ShowCommandList(int index)
@@ -86,12 +87,10 @@ public class GameController : MonoBehaviour
             if (i == arr.Length) break;
             if (arr[i].Type == Command.Type.Func1)
             {
-                //amount -= i;
                 list.AddRange(GetRecCommandUIs(func1CommandsList.GetComponentsInChildren<CommandUI>(), ref amount));
             }
             else if (arr[i].Type == Command.Type.Func2)
             {
-                //amount -= i;
                 list.AddRange(GetRecCommandUIs(func2CommandsList.GetComponentsInChildren<CommandUI>(), ref amount));
             }
             else

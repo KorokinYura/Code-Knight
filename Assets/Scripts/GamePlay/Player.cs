@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
         
         foreach (CommandUI c in GameController.Instance.GetCommandUIs())
         {
+            Debug.Log(123);
             yield return new WaitForSeconds(tickTime);
             c.CreateInstance(gameObject).Use(0);
         }

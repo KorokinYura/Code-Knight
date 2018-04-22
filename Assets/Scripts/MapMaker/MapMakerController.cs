@@ -43,8 +43,8 @@ public class MapMakerController : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A)) SaveMap();
-        if (Input.GetKeyDown(KeyCode.D)) LoadMap();
+        //if (Input.GetKeyDown(KeyCode.A)) SaveMap();
+        if (Input.GetKeyDown(KeyCode.D)) LoadMap(true);
     }
 
     public void LoadMap(bool forMapMaker = false)
@@ -57,7 +57,12 @@ public class MapMakerController : MonoBehaviour
             try
             {
                 string[] s = strs[i].Split(',');
-                GameObject obj = Instantiate(MapObjectsPrefabs[(int)(MapObjectType)Enum.Parse(typeof(MapObjectType), s[0])], map.transform);
+                MapObjectType type = (MapObjectType)Enum.Parse(typeof(MapObjectType), s[0]);
+
+                GameObject obj;
+                if (forMapMaker) obj = MapObjectUI.CreateMapMakerCommand(type);
+                else obj = Instantiate(MapObjectsPrefabs[(int)type], map.transform);
+
                 obj.transform.position = new Vector2(
                     Int32.Parse(s[1]),
                     Int32.Parse(s[2])
