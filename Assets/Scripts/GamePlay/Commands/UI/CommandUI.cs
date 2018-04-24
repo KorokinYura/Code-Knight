@@ -40,6 +40,8 @@ public class CommandUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
                 return new TurnRight(go);
             case Command.Type.Wait:
                 return new Wait(go);
+            case Command.Type.Use:
+                return new Use(go);
             default:
                 return null;
         }

@@ -6,14 +6,14 @@ public class GoForward : Command
 {
     public GoForward(GameObject player) : base(player) { }
 
-    public override bool Use(float time = 0)
+    public override bool Activate(float time = 0)
     {
-        RaycastHit2D hit = Physics2D.Raycast(obj.transform.right * 0.55f + obj.transform.position, obj.transform.right, 0.9f);
+        RaycastHit2D hit = CheckFront(obj);
         if (hit.transform != null && hit.transform.gameObject.tag == "Obstacle")
         {
             return false;
         }
-        obj.transform.position += obj.transform.right;
+        obj.transform.position += obj.transform.up;
         return true;
     }
 }

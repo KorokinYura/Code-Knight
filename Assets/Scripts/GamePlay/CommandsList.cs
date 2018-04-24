@@ -12,6 +12,7 @@ public class CommandsList : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void Start()
     {
         cmdPlaceHolder = Instantiate(cmdPlaceHolder, transform);
+        cmdPlaceHolder.SetActive(false);
     }
 
     private void Update()

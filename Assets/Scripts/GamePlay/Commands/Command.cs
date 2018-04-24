@@ -11,10 +11,15 @@ public abstract class Command
         this.obj = obj;
     }
 
-    public abstract bool Use(float time);
+    protected static RaycastHit2D CheckFront(GameObject obj)
+    {
+        return Physics2D.Raycast(obj.transform.position, obj.transform.up, 1);
+    }
+
+    public abstract bool Activate(float time);
 
     public enum Type
     {
-        GoForward, TurnLeft, TurnRight, Wait, Func1, Func2
+        GoForward, TurnLeft, TurnRight, Wait, Use, Func1, Func2
     }
 }

@@ -1,11 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField]
     private int maxCommandsAmount;
+    public int MaxCommandsAmount { get { return maxCommandsAmount; } }
     [Space]
     [SerializeField]
     private GameObject mainCommandsList;
@@ -26,10 +26,10 @@ public class GameController : MonoBehaviour
 
     private TickController tickController;
 
-	private void Awake ()
+    private void Awake()
     {
         Instance = this;
-	}
+    }
 
     private void Start()
     {

@@ -6,7 +6,7 @@ public class TurnRight : Command
 {
     public TurnRight(GameObject obj) : base(obj) { }
 
-    public override bool Use(float time = 0)
+    public override bool Activate(float time = 0)
     {
         obj.transform.localEulerAngles -= new Vector3(0, 0, 90);
 
