@@ -17,6 +17,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 bb8d6a3a1c26bf6905fbf5906647fc07 Assembly-CSharp.dll:.TickController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AimBehaviour
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -108,6 +109,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+81f96b58232bfe8d8f98112bfbf45ee1 Assembly-CSharp.dll:.TrapBehaviour
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -121,6 +123,7 @@ a165bffb1047ec27474ac2c2d018fe88 Assembly-CSharp.dll:.CommandsList
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenuController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+8879a242356f2e33359b22fbc76c3274 Assembly-CSharp.dll:.PointerDownUpTrigger
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -152,4 +155,6 @@ ac3b8ca6f26c6bcf4931a20018f086f2 Assembly-CSharp.dll:.CameraController
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 7a75edc83a9f267c790ac1425865847a Assembly-CSharp.dll:.CommandUI
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Player
+78f3cb506d567fdb13309484f3953c99 Assembly-CSharp.dll:.Door
+006c9a7a2276eae72a6f1f187a541a5c Assembly-CSharp.dll:.Lever
 7778528df92bcf7a00c60fd2ebbf2c9f Assembly-CSharp.dll:.GameController

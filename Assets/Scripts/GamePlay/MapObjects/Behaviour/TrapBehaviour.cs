@@ -28,7 +28,7 @@ public class TrapBehaviour : MapObjectBehaviour
 
                 spikesObj.SetActive(true);
 
-                RaycastHit2D hit = Physics2D.Raycast((Vector2)transform.position + Vector2.up, Vector2.zero, 0.1f);
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, 1);
                 if (hit.transform != null && hit.transform.gameObject.tag == "Player")
                 {
                     hit.transform.gameObject.GetComponent<Player>().Die();
