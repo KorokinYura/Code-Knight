@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using MapMaker;
+using MapObjects;
 
 public class MapObjectUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {

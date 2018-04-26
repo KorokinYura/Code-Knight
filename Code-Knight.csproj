@@ -286,6 +286,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GamePlay\CameraController.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\Commands\Attack.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\Commands\Block.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\Command.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\GoForward.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Commands\TurnLeft.cs" />
@@ -296,6 +298,7 @@
     <Compile Include="Assets\Scripts\GamePlay\CommandsList.cs" />
     <Compile Include="Assets\Scripts\GamePlay\GameController.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\AimBehaviour.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\Enemy.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\MapObjectBehaviour.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\Player.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\TrapBehaviour.cs" />
@@ -305,9 +308,9 @@
     <Compile Include="Assets\Scripts\GamePlay\PointerDownUpTrigger.cs" />
     <Compile Include="Assets\Scripts\GamePlay\TickController.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuController.cs" />
-    <Compile Include="Assets\Scripts\MapMaker\MapMaker.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapMakerController.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapObjectController.cs" />
+    <Compile Include="Assets\Scripts\MapMaker\MapObjects.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapObjectsDestroyer.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapObjectUI.cs" />
     <Compile Include="Assets\Scripts\ScenesController.cs" />

@@ -1,6 +1,6 @@
 ﻿using System;
 using UnityEngine;
-using MapMaker;
+using MapObjects;
 
 public class MapMakerController : MonoBehaviour
 {

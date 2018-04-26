@@ -1,4 +1,4 @@
-﻿namespace MapMaker
+﻿namespace MapObjects
 {
     public enum MapObjectType
     {

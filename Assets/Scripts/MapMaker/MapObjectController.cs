@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using MapMaker;
+using MapObjects;
 
 public class MapObjectController : MonoBehaviour
 {
