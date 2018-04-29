@@ -597,6 +597,7 @@ GameObject:
   - component: {fileID: 1547586646}
   - component: {fileID: 1547586648}
   - component: {fileID: 1547586647}
+  - component: {fileID: 1547586650}
   - component: {fileID: 1547586649}
   m_Layer: 5
   m_Name: MapMakerBtn
@@ -669,7 +670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -687,6 +688,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &1547586650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1547586645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1747284998cd14780865fe93793d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
+  pointerDownColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
 --- !u!1 &1574647823
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +711,7 @@ GameObject:
   - component: {fileID: 1574647824}
   - component: {fileID: 1574647826}
   - component: {fileID: 1574647825}
+  - component: {fileID: 1574647828}
   - component: {fileID: 1574647827}
   m_Layer: 5
   m_Name: PlayBtn
@@ -769,7 +784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -787,3 +802,16 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &1574647828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1574647823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1747284998cd14780865fe93793d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
+  pointerDownColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}

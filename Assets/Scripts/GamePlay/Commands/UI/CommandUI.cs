@@ -30,21 +30,7 @@ public class CommandUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
 
     public Command CreateInstance(GameObject go)
     {
-        switch (type)
-        {
-            case Command.Type.GoForward:
-                return new GoForward(go);
-            case Command.Type.TurnLeft:
-                return new TurnLeft(go);
-            case Command.Type.TurnRight:
-                return new TurnRight(go);
-            case Command.Type.Wait:
-                return new Wait(go);
-            case Command.Type.Use:
-                return new Use(go);
-            default:
-                return null;
-        }
+        return Command.FromEnum(type, go);
     }
 
     public void OnPointerDown(PointerEventData eventData)

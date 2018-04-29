@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 626375888}
   - component: {fileID: 626375891}
   - component: {fileID: 626375890}
+  - component: {fileID: 626375892}
   - component: {fileID: 626375889}
   m_Layer: 5
   m_Name: SaveMapBtn
@@ -372,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -423,6 +424,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 626375887}
+--- !u!114 &626375892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 626375887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1747284998cd14780865fe93793d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
+  pointerDownColor: {r: 0.77205884, g: 0.77205884, b: 0.77205884, a: 1}
 --- !u!1 &927817359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,6 +1073,7 @@ GameObject:
   - component: {fileID: 1535472032}
   - component: {fileID: 1535472035}
   - component: {fileID: 1535472034}
+  - component: {fileID: 1535472036}
   - component: {fileID: 1535472033}
   m_Layer: 5
   m_Name: ToMainMenuBtn
@@ -1097,7 +1112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -1148,6 +1163,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1535472031}
+--- !u!114 &1535472036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1535472031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1747284998cd14780865fe93793d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
+  pointerDownColor: {r: 0.77205884, g: 0.77205884, b: 0.77205884, a: 1}
 --- !u!1 &1586449149
 GameObject:
   m_ObjectHideFlags: 0

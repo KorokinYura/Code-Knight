@@ -18,6 +18,25 @@ public abstract class Command
 
     public abstract bool Activate(float time);
 
+    public static Command FromEnum(Type type, GameObject go)
+    {
+        switch (type)
+        {
+            case Command.Type.GoForward:
+                return new GoForward(go);
+            case Command.Type.TurnLeft:
+                return new TurnLeft(go);
+            case Command.Type.TurnRight:
+                return new TurnRight(go);
+            case Command.Type.Wait:
+                return new Wait(go);
+            case Command.Type.Use:
+                return new Use(go);
+            default:
+                return null;
+        }
+    }
+
     public enum Type
     {
         GoForward, TurnLeft, TurnRight, Wait, Use, Func1, Func2
