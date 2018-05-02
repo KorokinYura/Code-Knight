@@ -1,8 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MapObjectBehaviour
+public class Player : MapObjectBehaviour, IMortal
 {
     protected override IEnumerator TicksCoroutine(float tickTime)
     {
@@ -11,8 +10,8 @@ public class Player : MapObjectBehaviour
             yield return new WaitForSeconds(tickTime);
             c.CreateInstance(gameObject).Activate(0);
         }
-
-        //GameController.Instance.ResetLevel();
+        yield return new WaitForSeconds(tickTime);
+        GameController.Instance.ResetLevel();
     }
 
     public void Die()

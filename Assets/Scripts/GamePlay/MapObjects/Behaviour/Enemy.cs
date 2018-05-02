@@ -2,24 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MapObjectBehaviour
+public class Enemy : MapObjectBehaviour, IMortal
 {
-    private Command[] cmds;
+    public Command[] Cmds { get; private set; }
     private bool attacked = false;
 
     public void SetCommands(List<Command> commands)
     {
-        commands.CopyTo(cmds);
+        if (commands != null)
+        {
+            Cmds = new Command[commands.Count];
+            commands.CopyTo(Cmds);
+        }
     }
 
     protected override IEnumerator TicksCoroutine(float tickTime)
     {
         int prevAngleZ = 0;
         int playerAngleZ = 0;
-        if (cmds == null || cmds.Length == 0) cmds = new Command[]{ new Wait(gameObject) };
+        if (Cmds == null || Cmds.Length == 0) Cmds = new Command[]{ new Wait(gameObject) };
         while (true)
         {
-            foreach (Command c in cmds)
+            foreach (Command c in Cmds)
             {
                 if (attacked) attacked = false;
                 else

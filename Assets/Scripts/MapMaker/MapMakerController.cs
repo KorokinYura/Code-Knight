@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using MapObjects;
 
@@ -17,6 +18,10 @@ public class MapMakerController : MonoBehaviour
     [SerializeField]
     private GameObject[] mapObjectsPrefabs;
     public GameObject[] MapObjectsPrefabs { get { return mapObjectsPrefabs; } }
+    [Space]
+    [SerializeField]
+    private CommandsEditor mapObjectCommandsEditor;
+    public CommandsEditor MapObjectCommandsEditor { get { return mapObjectCommandsEditor; } }
 
     public static MapMakerController Instance { get; private set; }
 
@@ -44,6 +49,21 @@ public class MapMakerController : MonoBehaviour
             l = obj.GetComponent<Lever>();
         if (l != null && l.TriggerObj != null)
             str += "," + MapObjToSaveString(l.TriggerObj);
+
+        Enemy e = null;
+        if (obj.GetComponent<MapObjectController>().Type == MapObjectType.Enemy)
+            e = obj.GetComponent<Enemy>();
+        if (e != null)
+        {
+            string c = "";
+            for (int i = 0; i < e.Cmds.Length; i++)
+            {
+                c += e.Cmds[i].GetType().Name;
+                if (i != e.Cmds.Length - 1)
+                    c += ".";
+            }
+            str += ",{" + c + "}";
+        }
         return str;
     }
     private GameObject SaveStringToMapObject(string str, bool forMapMaker)
@@ -81,6 +101,20 @@ public class MapMakerController : MonoBehaviour
 
                 obj.GetComponent<Lever>().TriggerObj = SaveStringToMapObject(str.Substring(index + 1), forMapMaker);
             }
+
+            if (type == MapObjectType.Enemy && s[4].Length > 2)
+            {
+                string[] cStrs = s[4].Substring(1, s[4].Length - 2).Split('.');
+                List<Command> cmds = new List<Command>();
+                for (int i = 0; i < cStrs.Length; i++)
+                {
+                    if (cStrs[i] == Command.Type.GoForward.ToString()) cmds.Add(new GoForward(obj.gameObject));
+                    else if (cStrs[i] == Command.Type.TurnLeft.ToString()) cmds.Add(new TurnLeft(obj.gameObject));
+                    else if (cStrs[i] == Command.Type.TurnRight.ToString()) cmds.Add(new TurnRight(obj.gameObject));
+                    else if (cStrs[i] == Command.Type.Use.ToString()) cmds.Add(new Use(obj.gameObject));
+                }
+                obj.GetComponent<Enemy>().SetCommands(cmds);
+            }
             return obj;
         }
         catch
@@ -91,11 +125,11 @@ public class MapMakerController : MonoBehaviour
     public void SaveMap()
     {
         string saveStr = "";
-        for(int i = 0; i < map.transform.childCount; i++)
+        for (int i = 0; i < map.transform.childCount; i++)
         {
             GameObject obj = map.transform.GetChild(i).gameObject;
             saveStr += MapObjToSaveString(obj);
-            if(i != map.transform.childCount - 1)
+            if (i != map.transform.childCount - 1)
             {
                 saveStr += "|";
             }
@@ -105,9 +139,9 @@ public class MapMakerController : MonoBehaviour
     public void LoadMap(bool forMapMaker = false)
     {
         ClearMap();
-        
+
         string[] strs = Clipboard.Split('|');
-        for(int i = 0; i < strs.Length; i++)
+        for (int i = 0; i < strs.Length; i++)
         {
             SaveStringToMapObject(strs[i], forMapMaker);
         }
@@ -115,7 +149,7 @@ public class MapMakerController : MonoBehaviour
 
     public void ClearMap()
     {
-        for(int i = 0; i < map.transform.childCount; i++)
+        for (int i = 0; i < map.transform.childCount; i++)
         {
             Destroy(map.transform.GetChild(i).gameObject);
         }

@@ -69,6 +69,11 @@ public class MapObjectController : MonoBehaviour
                 obj.transform.position = transform.position;
                 obj.GetComponent<Lever>().TriggerObj = gameObject;
             }
+            Enemy e = GetComponent<Enemy>();
+            if(e != null)
+            {
+                MapMakerController.Instance.MapObjectCommandsEditor.CommandsEditorAim = e;
+            }
             moved = true;
         }
     }

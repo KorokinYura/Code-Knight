@@ -302,11 +302,14 @@
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\MapObjectBehaviour.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\Player.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Behaviour\TrapBehaviour.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\MapObjects\IMortal.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Trigger\Door.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Trigger\ITriggerable.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Trigger\Lever.cs" />
     <Compile Include="Assets\Scripts\GamePlay\TickController.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\MapMaker\CommandsEditor\CommandsEditor.cs" />
+    <Compile Include="Assets\Scripts\MapMaker\CommandsEditor\CommandsEditorCommand.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapMakerController.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapObjectController.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapObjects.cs" />
