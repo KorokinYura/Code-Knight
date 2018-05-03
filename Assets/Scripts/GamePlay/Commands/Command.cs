@@ -22,16 +22,20 @@ public abstract class Command
     {
         switch (type)
         {
-            case Command.Type.GoForward:
+            case Type.GoForward:
                 return new GoForward(go);
-            case Command.Type.TurnLeft:
+            case Type.TurnLeft:
                 return new TurnLeft(go);
-            case Command.Type.TurnRight:
+            case Type.TurnRight:
                 return new TurnRight(go);
-            case Command.Type.Wait:
+            case Type.Wait:
                 return new Wait(go);
-            case Command.Type.Use:
+            case Type.Use:
                 return new Use(go);
+            case Type.Attack:
+                return new Attack(go);
+            case Type.Block:
+                return new Block(go);
             default:
                 return null;
         }
@@ -39,6 +43,6 @@ public abstract class Command
 
     public enum Type
     {
-        GoForward, TurnLeft, TurnRight, Wait, Use, Func1, Func2
+        GoForward, TurnLeft, TurnRight, Wait, Use, Func1, Func2, Attack, Block
     }
 }

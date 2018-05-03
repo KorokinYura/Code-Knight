@@ -8,6 +8,9 @@ public class Block : Command
 
     public override bool Activate(float time)
     {
-        return false;
+        IMortal m = obj.GetComponent<IMortal>();
+        if (m == null) return false;
+        m.Block();
+        return true;
     }
 }

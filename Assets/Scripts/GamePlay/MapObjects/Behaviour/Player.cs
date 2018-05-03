@@ -3,12 +3,16 @@ using UnityEngine;
 
 public class Player : MapObjectBehaviour, IMortal
 {
+    public bool IsDead { get; private set; }
+
+    public bool Blocked { get; private set; }
+
     protected override IEnumerator TicksCoroutine(float tickTime)
     {
         foreach (CommandUI c in GameController.Instance.GetCommandUIs())
         {
             yield return new WaitForSeconds(tickTime);
-            c.CreateInstance(gameObject).Activate(0);
+            if(!IsDead) c.CreateInstance(gameObject).Activate(0);
         }
         yield return new WaitForSeconds(tickTime);
         GameController.Instance.ResetLevel();
@@ -16,6 +20,24 @@ public class Player : MapObjectBehaviour, IMortal
 
     public void Die()
     {
-        GameController.Instance.ResetLevel();
+        StartCoroutine(DieCoroutine(TickController.TickTime * 2));
+        IsDead = true;
+    }
+    private IEnumerator DieCoroutine(float time)
+    {
+        yield return new WaitForSeconds(time);
+        //GameController.Instance.ResetLevel();
+        Destroy(gameObject);
+    }
+
+    public void Block()
+    {
+        Blocked = true;
+        StartCoroutine(BlockCoroutine());
+    }
+    private IEnumerator BlockCoroutine()
+    {
+        yield return new WaitForSeconds(TickController.TickTime * 3);
+        Blocked = false;
     }
 }

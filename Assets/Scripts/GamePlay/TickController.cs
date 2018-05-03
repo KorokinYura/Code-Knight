@@ -41,7 +41,7 @@ public class TickController : MonoBehaviour
     private IEnumerator TicksCounter(float tickTime)
     {
         ticksStarted = true;
-        for(int i = 0; i < GameController.Instance.MaxCommandsAmount; i++)
+        for(int i = 0; i <= GameController.Instance.MaxCommandsAmount; i++)
         {
             yield return new WaitForSeconds(tickTime);
         }

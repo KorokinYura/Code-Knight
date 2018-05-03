@@ -55,17 +55,31 @@ public class CommandUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, 
         {
             if (CommandsList.PointerIsInside)
             {
-                DragCmd.transform.SetParent(GameController.Instance.CurCommandsList.transform);
-                DragCmd.transform.SetSiblingIndex(GameController.Instance.CurCommandsList.GetComponent<CommandsList>().CmdPlaceHolderIndex);
-
-                EndDrag(DragCmd);
+                if (!GameController.Instance.CurCommandsList.GetComponent<CommandsList>().InsertChild(DragCmd.transform, false))
+                {
+                    Destroy(DragCmd.gameObject);
+                }
+                else
+                {
+                    EndDrag(DragCmd);
+                }
+                //DragCmd.transform.SetParent(GameController.Instance.CurCommandsList.transform);
+                //DragCmd.transform.SetSiblingIndex(GameController.Instance.CurCommandsList.GetComponent<CommandsList>().CmdPlaceHolderIndex);
+                
                 DragCmd = null;
             }
             else if(pointerIsInside)
             {
-                DragCmd.transform.SetParent(GameController.Instance.CurCommandsList.transform);
-
-                EndDrag(DragCmd);
+                if(!GameController.Instance.CurCommandsList.GetComponent<CommandsList>().InsertChild(DragCmd.transform, true))
+                {
+                    Destroy(DragCmd.gameObject);
+                }
+                else
+                {
+                    EndDrag(DragCmd);
+                }
+                //DragCmd.transform.SetParent(GameController.Instance.CurCommandsList.transform);
+                
                 DragCmd = null;
             }
             else

@@ -5,6 +5,10 @@ using UnityEngine;
 public class Enemy : MapObjectBehaviour, IMortal
 {
     public Command[] Cmds { get; private set; }
+
+    public bool Blocked { get { return false; } }
+    public bool IsDead { get; private set; }
+
     private bool attacked = false;
 
     public void SetCommands(List<Command> commands)
@@ -21,7 +25,7 @@ public class Enemy : MapObjectBehaviour, IMortal
         int prevAngleZ = 0;
         int playerAngleZ = 0;
         if (Cmds == null || Cmds.Length == 0) Cmds = new Command[]{ new Wait(gameObject) };
-        while (true)
+        while (!IsDead)
         {
             foreach (Command c in Cmds)
             {
@@ -50,9 +54,11 @@ public class Enemy : MapObjectBehaviour, IMortal
                     {
                         prevAngleZ = (int)transform.localEulerAngles.z;
                         transform.localEulerAngles = new Vector3(0, 0, playerAngleZ);
+                        yield return new WaitForSeconds(tickTime - Time.deltaTime);
                         new Attack(gameObject).Activate(0);
+                        yield return new WaitForSeconds(Time.deltaTime);
+                        attacked = true;
 
-                        yield return new WaitForSeconds(tickTime);
                         transform.localEulerAngles = new Vector3(0, 0, prevAngleZ);
                     }
                 }
@@ -64,6 +70,17 @@ public class Enemy : MapObjectBehaviour, IMortal
 
     public void Die()
     {
+        StartCoroutine(DieCoroutine(TickController.TickTime / 2));
+        IsDead = true;
+    }
+    private IEnumerator DieCoroutine(float time)
+    {
+        yield return new WaitForSeconds(time);
         Destroy(gameObject);
+    }
+
+    public void Block()
+    {
+        Debug.Log("ONLY PLAYER CAN BLOCK");
     }
 }

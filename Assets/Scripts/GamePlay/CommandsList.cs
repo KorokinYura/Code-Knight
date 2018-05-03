@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class CommandsList : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
@@ -9,6 +10,13 @@ public class CommandsList : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private GameObject cmdPlaceHolder;
     public int CmdPlaceHolderIndex { get; private set; }
 
+    [SerializeField]
+    private Text cmdsAmountText;
+    [SerializeField]
+    private int maxCmdsAmount;
+    [SerializeField]
+    private string listName;
+
     private void Start()
     {
         cmdPlaceHolder = Instantiate(cmdPlaceHolder, transform);
@@ -18,11 +26,12 @@ public class CommandsList : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private void Update()
     {
         PlaceCmdPlaceHolder();
+        UpdateCmdsAmountText();
     }
 
     private void PlaceCmdPlaceHolder()
     {
-        if (CommandUI.DragCmd != null && PointerIsInside)
+        if (CommandUI.DragCmd != null && PointerIsInside && transform.childCount <= maxCmdsAmount)
         {
             cmdPlaceHolder.SetActive(true);
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -52,9 +61,30 @@ public class CommandsList : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         PointerIsInside = true;
     }
-
     public void OnPointerExit(PointerEventData eventData)
     {
         PointerIsInside = false;
+    }
+
+    private void UpdateCmdsAmountText()
+    {
+        cmdsAmountText.text = listName + " " + (transform.childCount - 1) + "/" + maxCmdsAmount;
+    }
+
+    public bool InsertChild(Transform t, bool toTheEnd)
+    {
+        if (transform.childCount - 1 >= maxCmdsAmount) return false;
+        t.SetParent(transform);
+        if (!toTheEnd) t.SetSiblingIndex(CmdPlaceHolderIndex);
+        return true;
+    }
+
+    private void OnEnable()
+    {
+        cmdsAmountText.gameObject.SetActive(true);
+    }
+    private void OnDisable()
+    {
+        cmdsAmountText.gameObject.SetActive(false);
     }
 }

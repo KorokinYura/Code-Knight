@@ -10,9 +10,9 @@ public class Attack : Command
         RaycastHit2D hit = CheckFront(obj);
         if (hit.transform == null) return false;
         IMortal m = hit.transform.GetComponent<IMortal>();
-        if (m == null) return false;
-        m.Die();
+        if (m == null || m.Blocked) return false;
 
+        m.Die();
         return true;
     }
 }

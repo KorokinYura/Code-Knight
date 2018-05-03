@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -21,6 +23,11 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private GameObject commandsDrag;
     public GameObject CommandsDrag { get { return commandsDrag; } }
+    [Space]
+    [SerializeField]
+    private bool trackCurCmndUI;
+    [SerializeField]
+    private Color curCmndUIColor;
 
     public static GameController Instance { get; private set; }
 
@@ -34,6 +41,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         tickController = GetComponent<TickController>();
+        if (trackCurCmndUI) TickController.TicksEvent += CommandUIsTracker;
         CurCommandsList = mainCommandsList;
     }
 
@@ -69,16 +77,43 @@ public class GameController : MonoBehaviour
                 CurCommandsList = func2CommandsList;
                 break;
             default:
-                goto case 1;
+                goto case 0;
         }
     }
+
+    private IEnumerator CommandUIsTracker(float tickTime)
+    {
+        Image image = null;
+        Color color = Color.white;
+        foreach (CommandUI c in GetCommandUIs())
+        {
+            yield return new WaitForSeconds(tickTime);
+
+            if (c.transform.parent == mainCommandsList.transform) ShowCommandList(0);
+            else if (c.transform.parent == func1CommandsList.transform) ShowCommandList(1);
+            else if (c.transform.parent == func2CommandsList.transform) ShowCommandList(2);
+
+            image = c.GetComponent<Image>();
+            if (image != null)
+            {
+                color = image.color;
+                image.color = curCmndUIColor;
+                StartCoroutine(ReturnTrackedCmdColor(image, color, tickTime));
+            }
+        }
+    }
+    private IEnumerator ReturnTrackedCmdColor(Image image, Color color, float tickTime)
+    {
+        yield return new WaitForSeconds(tickTime);
+        if (image != null) image.color = color;
+    }
+
     public IEnumerable<CommandUI> GetCommandUIs()
     {
         CommandUI[] arr = mainCommandsList.GetComponentsInChildren<CommandUI>();
         int amount = maxCommandsAmount;
         return GetRecCommandUIs(arr, ref amount);
     }
-
     private List<CommandUI> GetRecCommandUIs(CommandUI[] arr, ref int amount)
     {
         List<CommandUI> list = new List<CommandUI>();
