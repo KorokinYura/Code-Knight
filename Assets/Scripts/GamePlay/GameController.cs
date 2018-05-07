@@ -85,10 +85,10 @@ public class GameController : MonoBehaviour
     {
         Image image = null;
         Color color = Color.white;
-        foreach (CommandUI c in GetCommandUIs())
+        foreach (CommandUI c in GetCommandUIs() ?? new CommandUI[0])
         {
             yield return new WaitForSeconds(tickTime);
-
+            
             if (c.transform.parent == mainCommandsList.transform) ShowCommandList(0);
             else if (c.transform.parent == func1CommandsList.transform) ShowCommandList(1);
             else if (c.transform.parent == func2CommandsList.transform) ShowCommandList(2);
@@ -110,6 +110,7 @@ public class GameController : MonoBehaviour
 
     public IEnumerable<CommandUI> GetCommandUIs()
     {
+        if (mainCommandsList == null) return null;
         CommandUI[] arr = mainCommandsList.GetComponentsInChildren<CommandUI>();
         int amount = maxCommandsAmount;
         return GetRecCommandUIs(arr, ref amount);

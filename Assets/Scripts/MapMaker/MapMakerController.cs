@@ -56,11 +56,14 @@ public class MapMakerController : MonoBehaviour
         if (e != null)
         {
             string c = "";
-            for (int i = 0; i < e.Cmds.Length; i++)
+            if (e.Cmds != null)
             {
-                c += e.Cmds[i].GetType().Name;
-                if (i != e.Cmds.Length - 1)
-                    c += ".";
+                for (int i = 0; i < e.Cmds.Length; i++)
+                {
+                    c += e.Cmds[i].GetType().Name;
+                    if (i != e.Cmds.Length - 1)
+                        c += ".";
+                }
             }
             str += ",{" + c + "}";
         }

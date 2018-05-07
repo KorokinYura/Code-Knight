@@ -119,7 +119,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Enemy
 7a75edc83a9f267c790ac1425865847a Assembly-CSharp.dll:.MapObjectUI
-a165bffb1047ec27474ac2c2d018fe88 Assembly-CSharp.dll:.CommandsList
+22793a73fa9515f674f6a64917629a3a Assembly-CSharp.dll:.CommandsList
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MapObjectsDestroyer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenuController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
@@ -160,4 +160,4 @@ ac3b8ca6f26c6bcf4931a20018f086f2 Assembly-CSharp.dll:.CameraController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Player
 0a8781ff7e4b6c69700955031b8665e1 Assembly-CSharp.dll:.Door
 006c9a7a2276eae72a6f1f187a541a5c Assembly-CSharp.dll:.Lever
-7778528df92bcf7a00c60fd2ebbf2c9f Assembly-CSharp.dll:.GameController
+b58b97ab4c34290b29382e117a481580 Assembly-CSharp.dll:.GameController
