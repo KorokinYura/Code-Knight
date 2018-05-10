@@ -24,16 +24,20 @@ public class MapMakerController : MonoBehaviour
     public CommandsEditor MapObjectCommandsEditor { get { return mapObjectCommandsEditor; } }
 
     public static MapMakerController Instance { get; private set; }
+    
+    public static string CurLoadString { get; set; }
 
     private void Awake()
     {
         Instance = this;
     }
 
-    private void Update()
+    private void Start()
     {
-        //if (Input.GetKeyDown(KeyCode.A)) SaveMap();
-        if (Input.GetKeyDown(KeyCode.D)) LoadMap(true);
+         if (CurLoadString != null)
+            LoadMap(CurLoadString, true);
+        else
+            LoadMap(Clipboard, true);
     }
 
     private string MapObjToSaveString(GameObject obj)
@@ -138,12 +142,13 @@ public class MapMakerController : MonoBehaviour
             }
         }
         Clipboard = saveStr;
+        CurLoadString = saveStr;
     }
-    public void LoadMap(bool forMapMaker = false)
+    public void LoadMap(string loadStr, bool forMapMaker = false)
     {
         ClearMap();
 
-        string[] strs = Clipboard.Split('|');
+        string[] strs = loadStr.Split('|');
         for (int i = 0; i < strs.Length; i++)
         {
             SaveStringToMapObject(strs[i], forMapMaker);

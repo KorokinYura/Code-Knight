@@ -1,0 +1,2930 @@
+fileFormatVersion: 2
+guid: bed3cad8ae9ff2e4cac40b04ea7268b7
+timeCreated: 1525942439
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RTS_medieval@2_0
+    21300002: RTS_medieval@2_1
+    21300004: RTS_medieval@2_2
+    21300006: RTS_medieval@2_3
+    21300008: RTS_medieval@2_4
+    21300010: RTS_medieval@2_5
+    21300012: RTS_medieval@2_6
+    21300014: RTS_medieval@2_7
+    21300016: RTS_medieval@2_8
+    21300018: RTS_medieval@2_9
+    21300020: RTS_medieval@2_10
+    21300022: RTS_medieval@2_11
+    21300024: RTS_medieval@2_12
+    21300026: RTS_medieval@2_13
+    21300028: RTS_medieval@2_14
+    21300030: RTS_medieval@2_15
+    21300032: RTS_medieval@2_16
+    21300034: RTS_medieval@2_17
+    21300036: RTS_medieval@2_18
+    21300038: RTS_medieval@2_19
+    21300040: RTS_medieval@2_20
+    21300042: RTS_medieval@2_21
+    21300044: RTS_medieval@2_22
+    21300046: RTS_medieval@2_23
+    21300048: RTS_medieval@2_24
+    21300050: RTS_medieval@2_25
+    21300052: RTS_medieval@2_26
+    21300054: RTS_medieval@2_27
+    21300056: RTS_medieval@2_28
+    21300058: RTS_medieval@2_29
+    21300060: RTS_medieval@2_30
+    21300062: RTS_medieval@2_31
+    21300064: RTS_medieval@2_32
+    21300066: RTS_medieval@2_33
+    21300068: RTS_medieval@2_34
+    21300070: RTS_medieval@2_35
+    21300072: RTS_medieval@2_36
+    21300074: RTS_medieval@2_37
+    21300076: RTS_medieval@2_38
+    21300078: RTS_medieval@2_39
+    21300080: RTS_medieval@2_40
+    21300082: RTS_medieval@2_41
+    21300084: RTS_medieval@2_42
+    21300086: RTS_medieval@2_43
+    21300088: RTS_medieval@2_44
+    21300090: RTS_medieval@2_45
+    21300092: RTS_medieval@2_46
+    21300094: RTS_medieval@2_47
+    21300096: RTS_medieval@2_48
+    21300098: RTS_medieval@2_49
+    21300100: RTS_medieval@2_50
+    21300102: RTS_medieval@2_51
+    21300104: RTS_medieval@2_52
+    21300106: RTS_medieval@2_53
+    21300108: RTS_medieval@2_54
+    21300110: RTS_medieval@2_55
+    21300112: RTS_medieval@2_56
+    21300114: RTS_medieval@2_57
+    21300116: RTS_medieval@2_58
+    21300118: RTS_medieval@2_59
+    21300120: RTS_medieval@2_60
+    21300122: RTS_medieval@2_61
+    21300124: RTS_medieval@2_62
+    21300126: RTS_medieval@2_63
+    21300128: RTS_medieval@2_64
+    21300130: RTS_medieval@2_65
+    21300132: RTS_medieval@2_66
+    21300134: RTS_medieval@2_67
+    21300136: RTS_medieval@2_68
+    21300138: RTS_medieval@2_69
+    21300140: RTS_medieval@2_70
+    21300142: RTS_medieval@2_71
+    21300144: RTS_medieval@2_72
+    21300146: RTS_medieval@2_73
+    21300148: RTS_medieval@2_74
+    21300150: RTS_medieval@2_75
+    21300152: RTS_medieval@2_76
+    21300154: RTS_medieval@2_77
+    21300156: RTS_medieval@2_78
+    21300158: RTS_medieval@2_79
+    21300160: RTS_medieval@2_80
+    21300162: RTS_medieval@2_81
+    21300164: RTS_medieval@2_82
+    21300166: RTS_medieval@2_83
+    21300168: RTS_medieval@2_84
+    21300170: RTS_medieval@2_85
+    21300172: RTS_medieval@2_86
+    21300174: RTS_medieval@2_87
+    21300176: RTS_medieval@2_88
+    21300178: RTS_medieval@2_89
+    21300180: RTS_medieval@2_90
+    21300182: RTS_medieval@2_91
+    21300184: RTS_medieval@2_92
+    21300186: RTS_medieval@2_93
+    21300188: RTS_medieval@2_94
+    21300190: RTS_medieval@2_95
+    21300192: RTS_medieval@2_96
+    21300194: RTS_medieval@2_97
+    21300196: RTS_medieval@2_98
+    21300198: RTS_medieval@2_99
+    21300200: RTS_medieval@2_100
+    21300202: RTS_medieval@2_101
+    21300204: RTS_medieval@2_102
+    21300206: RTS_medieval@2_103
+    21300208: RTS_medieval@2_104
+    21300210: RTS_medieval@2_105
+    21300212: RTS_medieval@2_106
+    21300214: RTS_medieval@2_107
+    21300216: RTS_medieval@2_108
+    21300218: RTS_medieval@2_109
+    21300220: RTS_medieval@2_110
+    21300222: RTS_medieval@2_111
+    21300224: RTS_medieval@2_112
+    21300226: RTS_medieval@2_113
+    21300228: RTS_medieval@2_114
+    21300230: RTS_medieval@2_115
+    21300232: RTS_medieval@2_116
+    21300234: RTS_medieval@2_117
+    21300236: RTS_medieval@2_118
+    21300238: RTS_medieval@2_119
+    21300240: RTS_medieval@2_120
+    21300242: RTS_medieval@2_121
+    21300244: RTS_medieval@2_122
+    21300246: RTS_medieval@2_123
+    21300248: RTS_medieval@2_124
+    21300250: RTS_medieval@2_125
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RTS_medieval@2_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_3
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_4
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_6
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_7
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_9
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_10
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_11
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_12
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_14
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_15
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_16
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_17
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1216
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_22
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_23
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_24
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_25
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_27
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_28
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_29
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_30
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_31
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_32
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_33
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_34
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_35
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_40
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_41
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_42
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_43
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_45
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_46
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_47
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_48
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_49
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_50
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_51
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_52
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_53
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 832
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_60
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_61
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_62
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_63
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_64
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_65
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_66
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_67
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_68
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_69
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_70
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_71
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_76
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_77
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_78
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_79
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_80
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_81
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_82
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_83
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_84
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_85
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_86
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_87
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_88
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_89
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 448
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_92
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_93
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_94
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_95
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_96
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_97
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_98
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_99
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_100
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_101
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_102
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_103
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_104
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_105
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_106
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_107
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_111
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_112
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_114
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_115
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_116
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_117
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_118
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_119
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_120
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_121
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_122
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_123
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_124
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RTS_medieval@2_125
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 64
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -1701.5625, y: -645.5482}
+      - {x: -1564.0625, y: -645.5482}
+      - {x: -1564.0625, y: -511.453}
+      - {x: -1565.7812, y: -508.01465}
+      - {x: -1701.5625, y: -508.01465}
+    - - {x: -1509.0625, y: -508.01465}
+      - {x: -1509.0625, y: -645.5482}
+      - {x: -1371.5625, y: -645.5482}
+      - {x: -1371.5625, y: -508.01465}
+    - - {x: -1313.125, y: -508.01465}
+      - {x: -1316.5625, y: -511.453}
+      - {x: -1316.5625, y: -645.5482}
+      - {x: -1179.0625, y: -645.5482}
+      - {x: -1179.0625, y: -509.73383}
+      - {x: -1182.5, y: -508.01465}
+    - - {x: -1120.625, y: -508.01465}
+      - {x: -1124.0625, y: -511.453}
+      - {x: -1124.0625, y: -645.5482}
+      - {x: -988.2813, y: -645.5482}
+      - {x: -986.56256, y: -640.39075}
+      - {x: -986.56256, y: -511.453}
+      - {x: -990.00006, y: -508.01465}
+    - - {x: -881.71875, y: -511.453}
+      - {x: -910.9375, y: -523.4872}
+      - {x: -912.65625, y: -537.24054}
+      - {x: -912.65625, y: -640.39075}
+      - {x: -814.6875, y: -640.39075}
+      - {x: -814.6875, y: -532.083}
+      - {x: -847.34375, y: -511.453}
+    - - {x: -689.21875, y: -511.453}
+      - {x: -720.15625, y: -537.24054}
+      - {x: -720.15625, y: -640.39075}
+      - {x: -623.90625, y: -640.39075}
+      - {x: -623.90625, y: -532.083}
+      - {x: -660, y: -511.453}
+    - - {x: -319.6875, y: -511.453}
+      - {x: -345.46875, y: -542.3981}
+      - {x: -345.46875, y: -640.39075}
+      - {x: -232.03125, y: -640.39075}
+      - {x: -232.03125, y: -544.11725}
+      - {x: -257.8125, y: -511.453}
+    - - {x: 91.09375, y: -511.453}
+      - {x: 30.937502, y: -545.8364}
+      - {x: 30.937502, y: -635.2332}
+      - {x: 36.09375, y: -640.39075}
+      - {x: 161.5625, y: -640.39075}
+      - {x: 161.5625, y: -525.20636}
+      - {x: 130.625, y: -511.453}
+    - - {x: -441.71875, y: -523.4872}
+      - {x: -507.03128, y: -523.4872}
+      - {x: -529.375, y: -532.083}
+      - {x: -529.375, y: -623.19904}
+      - {x: -524.21875, y: -628.35657}
+      - {x: -436.5625, y: -628.35657}
+      - {x: -431.40625, y: -626.6374}
+      - {x: -431.40625, y: -528.6447}
+    - - {x: -128.90625, y: -523.4872}
+      - {x: -152.96875, y: -533.8022}
+      - {x: -152.96875, y: -628.35657}
+      - {x: -39.53125, y: -628.35657}
+      - {x: -39.53125, y: -564.74725}
+      - {x: -55, y: -523.4872}
+    - - {x: 250.93752, y: -532.083}
+      - {x: 250.93752, y: -621.47986}
+      - {x: 319.6875, y: -621.47986}
+      - {x: 324.84375, y: -616.3223}
+      - {x: 324.84375, y: -537.24054}
+      - {x: 319.6875, y: -532.083}
+    - - {x: 1615.625, y: -540.6789}
+      - {x: 1613.9062, y: -542.3981}
+      - {x: 1607.0312, y: -563.0281}
+      - {x: 1607.0312, y: -607.7265}
+      - {x: 1617.3438, y: -612.88403}
+      - {x: 1651.7188, y: -612.88403}
+      - {x: 1658.5938, y: -606.0073}
+      - {x: 1658.5938, y: -561.3089}
+      - {x: 1637.9688, y: -540.6789}
+    - - {x: 469.21875, y: -547.55554}
+      - {x: 458.90625, y: -554.43225}
+      - {x: 458.90625, y: -595.6923}
+      - {x: 460.625, y: -604.28815}
+      - {x: 500.15628, y: -604.28815}
+      - {x: 501.87503, y: -599.1307}
+      - {x: 501.87503, y: -554.43225}
+      - {x: 491.56253, y: -547.55554}
+    - - {x: 658.28125, y: -547.55554}
+      - {x: 651.40625, y: -552.7131}
+      - {x: 651.40625, y: -597.4115}
+      - {x: 653.125, y: -604.28815}
+      - {x: 687.5, y: -604.28815}
+      - {x: 692.65625, y: -600.84985}
+      - {x: 692.65625, y: -554.43225}
+      - {x: 690.9375, y: -547.55554}
+    - - {x: 843.90625, y: -542.3981}
+      - {x: 838.75, y: -556.1514}
+      - {x: 838.75, y: -600.84985}
+      - {x: 847.34375, y: -604.28815}
+      - {x: 885.15625, y: -604.28815}
+      - {x: 888.59375, y: -595.6923}
+      - {x: 888.59375, y: -547.55554}
+      - {x: 885.15625, y: -542.3981}
+    - - {x: 1045, y: -545.8364}
+      - {x: 1032.9688, y: -552.7131}
+      - {x: 1032.9688, y: -592.25397}
+      - {x: 1039.8438, y: -604.28815}
+      - {x: 1074.2188, y: -604.28815}
+      - {x: 1079.375, y: -599.1307}
+      - {x: 1079.375, y: -552.7131}
+      - {x: 1074.2188, y: -545.8364}
+    - - {x: 1232.3438, y: -545.8364}
+      - {x: 1223.75, y: -552.7131}
+      - {x: 1223.75, y: -597.4115}
+      - {x: 1225.4688, y: -604.28815}
+      - {x: 1268.4375, y: -604.28815}
+      - {x: 1273.5938, y: -581.93896}
+      - {x: 1273.5938, y: -556.1514}
+      - {x: 1265, y: -545.8364}
+    - - {x: 1421.4062, y: -547.55554}
+      - {x: 1419.6875, y: -550.9939}
+      - {x: 1419.6875, y: -604.28815}
+      - {x: 1455.7812, y: -604.28815}
+      - {x: 1460.9375, y: -602.569}
+      - {x: 1460.9375, y: -547.55554}
+    - - {x: -1701.5625, y: -317.18683}
+      - {x: -1701.5625, y: -454.7204}
+      - {x: -1564.0625, y: -454.7204}
+      - {x: -1564.0625, y: -317.18683}
+    - - {x: -1505.625, y: -317.18683}
+      - {x: -1509.0625, y: -320.62515}
+      - {x: -1509.0625, y: -451.28207}
+      - {x: -1505.625, y: -454.7204}
+      - {x: -1375, y: -454.7204}
+      - {x: -1371.5625, y: -451.28207}
+      - {x: -1371.5625, y: -320.62515}
+      - {x: -1375, y: -317.18683}
+    - - {x: -1316.5625, y: -317.18683}
+      - {x: -1316.5625, y: -454.7204}
+      - {x: -1179.0625, y: -454.7204}
+      - {x: -1179.0625, y: -317.18683}
+    - - {x: -1124.0625, y: -317.18683}
+      - {x: -1124.0625, y: -454.7204}
+      - {x: -986.56256, y: -454.7204}
+      - {x: -986.56256, y: -317.18683}
+    - - {x: 1646.5625, y: -317.18683}
+      - {x: 1631.0938, y: -317.18683}
+      - {x: 1629.375, y: -324.0635}
+      - {x: 1570.9375, y: -348.13187}
+      - {x: 1564.0625, y: -363.6044}
+      - {x: 1564.0625, y: -392.8303}
+      - {x: 1596.7188, y: -451.28207}
+      - {x: 1653.4375, y: -451.28207}
+      - {x: 1699.8438, y: -415.1795}
+      - {x: 1699.8438, y: -379.07693}
+      - {x: 1660.3125, y: -318.90598}
+    - - {x: -268.125, y: -346.41272}
+      - {x: -299.0625, y: -346.41272}
+      - {x: -330, y: -384.23444}
+      - {x: -330, y: -420.337}
+      - {x: -324.84375, y: -427.21368}
+      - {x: -271.5625, y: -427.21368}
+      - {x: -261.25, y: -425.4945}
+      - {x: -245.78127, y: -399.70697}
+      - {x: -245.78127, y: -370.48108}
+      - {x: -249.21877, y: -363.6044}
+    - - {x: -111.71875, y: -346.41272}
+      - {x: -135.78125, y: -353.2894}
+      - {x: -139.21875, y: -372.20026}
+      - {x: -139.21875, y: -425.4945}
+      - {x: -137.5, y: -427.21368}
+      - {x: -77.34375, y: -427.21368}
+      - {x: -53.28125, y: -408.30283}
+      - {x: -53.28125, y: -346.41272}
+    - - {x: 85.9375, y: -346.41272}
+      - {x: 60.15625, y: -353.2894}
+      - {x: 53.28125, y: -384.23444}
+      - {x: 53.28125, y: -422.05618}
+      - {x: 58.4375, y: -427.21368}
+      - {x: 103.125, y: -427.21368}
+      - {x: 122.03126, y: -423.77533}
+      - {x: 139.21875, y: -410.02197}
+      - {x: 139.21875, y: -367.04276}
+      - {x: 132.34375, y: -346.41272}
+    - - {x: -457.1875, y: -349.85104}
+      - {x: -495.00003, y: -349.85104}
+      - {x: -522.5, y: -384.23444}
+      - {x: -522.5, y: -415.1795}
+      - {x: -517.34375, y: -422.05618}
+      - {x: -481.25, y: -422.05618}
+      - {x: -457.1875, y: -418.61783}
+      - {x: -436.5625, y: -392.8303}
+      - {x: -436.5625, y: -372.20026}
+      - {x: -443.4375, y: -355.00854}
+    - - {x: -656.5625, y: -353.2894}
+      - {x: -694.375, y: -353.2894}
+      - {x: -708.125, y: -360.16608}
+      - {x: -708.125, y: -401.42615}
+      - {x: -699.53125, y: -418.61783}
+      - {x: -649.6875, y: -418.61783}
+      - {x: -635.9375, y: -397.9878}
+      - {x: -635.9375, y: -370.48108}
+      - {x: -642.8125, y: -356.72772}
+    - - {x: 460.625, y: -355.00854}
+      - {x: 458.90625, y: -358.4469}
+      - {x: 458.90625, y: -404.86447}
+      - {x: 462.34375, y: -413.46033}
+      - {x: 501.87503, y: -413.46033}
+      - {x: 501.87503, y: -360.16608}
+      - {x: 491.56253, y: -355.00854}
+    - - {x: 656.5625, y: -355.00854}
+      - {x: 651.40625, y: -358.4469}
+      - {x: 651.40625, y: -404.86447}
+      - {x: 654.84375, y: -413.46033}
+      - {x: 685.78125, y: -413.46033}
+      - {x: 692.65625, y: -408.30283}
+      - {x: 692.65625, y: -361.88522}
+      - {x: 690.9375, y: -355.00854}
+    - - {x: 850.78125, y: -351.57022}
+      - {x: 838.75, y: -358.4469}
+      - {x: 838.75, y: -413.46033}
+      - {x: 885.15625, y: -413.46033}
+      - {x: 888.59375, y: -411.74115}
+      - {x: 888.59375, y: -355.00854}
+      - {x: 886.875, y: -351.57022}
+    - - {x: 1045, y: -353.2894}
+      - {x: 1032.9688, y: -370.48108}
+      - {x: 1032.9688, y: -399.70697}
+      - {x: 1034.6875, y: -413.46033}
+      - {x: 1079.375, y: -413.46033}
+      - {x: 1079.375, y: -356.72772}
+      - {x: 1075.9375, y: -353.2894}
+    - - {x: 1268.4375, y: -353.2894}
+      - {x: 1235.7812, y: -353.2894}
+      - {x: 1223.75, y: -360.16608}
+      - {x: 1223.75, y: -410.02197}
+      - {x: 1225.4688, y: -413.46033}
+      - {x: 1263.2812, y: -413.46033}
+      - {x: 1273.5938, y: -411.74115}
+      - {x: 1273.5938, y: -370.48108}
+      - {x: 1271.875, y: -356.72772}
+    - - {x: 1447.1875, y: -355.00854}
+      - {x: 1428.2812, y: -355.00854}
+      - {x: 1419.6875, y: -367.04276}
+      - {x: 1419.6875, y: -413.46033}
+      - {x: 1460.9375, y: -413.46033}
+      - {x: 1460.9375, y: -367.04276}
+      - {x: 1455.7812, y: -356.72772}
+    - - {x: 280.15625, y: -355.00854}
+      - {x: 262.96875, y: -373.91943}
+      - {x: 262.96875, y: -389.39194}
+      - {x: 271.5625, y: -408.30283}
+      - {x: 276.71875, y: -410.02197}
+      - {x: 302.5, y: -410.02197}
+      - {x: 312.8125, y: -399.70697}
+      - {x: 312.8125, y: -372.20026}
+      - {x: 299.0625, y: -355.00854}
+    - - {x: -885.15625, y: -365.32358}
+      - {x: -886.875, y: -368.7619}
+      - {x: -886.875, y: -392.8303}
+      - {x: -878.28125, y: -406.58365}
+      - {x: -850.78125, y: -406.58365}
+      - {x: -840.46875, y: -392.8303}
+      - {x: -840.46875, y: -368.7619}
+      - {x: -842.1875, y: -365.32358}
+    - - {x: -1696.4062, y: -122.92064}
+      - {x: -1701.5625, y: -124.63981}
+      - {x: -1701.5625, y: -260.45422}
+      - {x: -1567.5, y: -260.45422}
+      - {x: -1564.0625, y: -257.01587}
+      - {x: -1564.0625, y: -126.35898}
+      - {x: -1567.5, y: -122.92064}
+    - - {x: -1509.0625, y: -122.92064}
+      - {x: -1509.0625, y: -260.45422}
+      - {x: -1371.5625, y: -260.45422}
+      - {x: -1371.5625, y: -122.92064}
+    - - {x: -1313.125, y: -122.92064}
+      - {x: -1316.5625, y: -126.35898}
+      - {x: -1316.5625, y: -257.01587}
+      - {x: -1313.125, y: -260.45422}
+      - {x: -1182.5, y: -260.45422}
+      - {x: -1179.0625, y: -257.01587}
+      - {x: -1179.0625, y: -126.35898}
+      - {x: -1182.5, y: -122.92064}
+    - - {x: -1120.625, y: -122.92064}
+      - {x: -1124.0625, y: -126.35898}
+      - {x: -1124.0625, y: -257.01587}
+      - {x: -1120.625, y: -260.45422}
+      - {x: -990.00006, y: -260.45422}
+      - {x: -986.56256, y: -257.01587}
+      - {x: -986.56256, y: -126.35898}
+      - {x: -990.00006, y: -122.92064}
+    - - {x: 1588.125, y: -124.63981}
+      - {x: 1565.7812, y: -189.96826}
+      - {x: 1565.7812, y: -234.66667}
+      - {x: 1624.2188, y: -260.45422}
+      - {x: 1655.1562, y: -260.45422}
+      - {x: 1675.7812, y: -257.01587}
+      - {x: 1699.8438, y: -205.44078}
+      - {x: 1699.8438, y: -143.55067}
+      - {x: 1644.8438, y: -124.63981}
+    - - {x: -268.125, y: -153.86569}
+      - {x: -297.34375, y: -153.86569}
+      - {x: -312.8125, y: -171.05739}
+      - {x: -330, y: -195.12576}
+      - {x: -330, y: -220.91331}
+      - {x: -324.84375, y: -232.9475}
+      - {x: -281.875, y: -232.9475}
+      - {x: -245.78127, y: -214.03664}
+      - {x: -245.78127, y: -167.61905}
+      - {x: -247.50002, y: -160.74237}
+    - - {x: -106.5625, y: -153.86569}
+      - {x: -130.625, y: -162.46155}
+      - {x: -139.21875, y: -196.84494}
+      - {x: -139.21875, y: -227.79}
+      - {x: -134.0625, y: -232.9475}
+      - {x: -91.09375, y: -232.9475}
+      - {x: -70.46875, y: -229.50916}
+      - {x: -53.28125, y: -217.47498}
+      - {x: -53.28125, y: -172.77657}
+      - {x: -58.4375, y: -153.86569}
+    - - {x: 115.15625, y: -153.86569}
+      - {x: 85.9375, y: -153.86569}
+      - {x: 73.90625, y: -171.05739}
+      - {x: 53.28125, y: -202.00244}
+      - {x: 53.28125, y: -219.19414}
+      - {x: 61.875004, y: -232.9475}
+      - {x: 85.9375, y: -232.9475}
+      - {x: 118.59375, y: -224.35165}
+      - {x: 139.21875, y: -210.5983}
+      - {x: 139.21875, y: -164.18071}
+    - - {x: -486.40628, y: -155.58487}
+      - {x: -501.87503, y: -165.89989}
+      - {x: -505.31253, y: -176.2149}
+      - {x: -522.5, y: -198.5641}
+      - {x: -522.5, y: -217.47498}
+      - {x: -515.625, y: -229.50916}
+      - {x: -489.84378, y: -229.50916}
+      - {x: -458.90625, y: -220.91331}
+      - {x: -436.5625, y: -205.44078}
+      - {x: -436.5625, y: -184.81075}
+      - {x: -446.875, y: -155.58487}
+    - - {x: -687.5, y: -159.02321}
+      - {x: -708.125, y: -167.61905}
+      - {x: -708.125, y: -214.03664}
+      - {x: -689.21875, y: -224.35165}
+      - {x: -639.375, y: -224.35165}
+      - {x: -635.9375, y: -219.19414}
+      - {x: -635.9375, y: -177.93407}
+      - {x: -651.40625, y: -159.02321}
+    - - {x: 462.34375, y: -162.46155}
+      - {x: 458.90625, y: -171.05739}
+      - {x: 458.90625, y: -217.47498}
+      - {x: 464.0625, y: -220.91331}
+      - {x: 498.43753, y: -220.91331}
+      - {x: 501.87503, y: -212.31746}
+      - {x: 501.87503, y: -171.05739}
+      - {x: 493.28128, y: -162.46155}
+    - - {x: 663.4375, y: -162.46155}
+      - {x: 651.40625, y: -177.93407}
+      - {x: 651.40625, y: -219.19414}
+      - {x: 660, y: -220.91331}
+      - {x: 692.65625, y: -220.91331}
+      - {x: 692.65625, y: -177.93407}
+      - {x: 687.5, y: -162.46155}
+    - - {x: 847.34375, y: -159.02321}
+      - {x: 838.75, y: -167.61905}
+      - {x: 838.75, y: -212.31746}
+      - {x: 842.1875, y: -220.91331}
+      - {x: 883.4375, y: -220.91331}
+      - {x: 888.59375, y: -207.15996}
+      - {x: 888.59375, y: -159.02321}
+    - - {x: 1045, y: -160.74237}
+      - {x: 1032.9688, y: -176.2149}
+      - {x: 1032.9688, y: -207.15996}
+      - {x: 1034.6875, y: -220.91331}
+      - {x: 1079.375, y: -220.91331}
+      - {x: 1079.375, y: -164.18071}
+      - {x: 1074.2188, y: -160.74237}
+    - - {x: 1265, y: -160.74237}
+      - {x: 1239.2188, y: -160.74237}
+      - {x: 1223.75, y: -167.61905}
+      - {x: 1223.75, y: -219.19414}
+      - {x: 1230.625, y: -220.91331}
+      - {x: 1270.1562, y: -220.91331}
+      - {x: 1271.875, y: -217.47498}
+      - {x: 1273.5938, y: -207.15996}
+      - {x: 1273.5938, y: -165.89989}
+    - - {x: 1430, y: -162.46155}
+      - {x: 1419.6875, y: -169.33823}
+      - {x: 1419.6875, y: -220.91331}
+      - {x: 1459.2188, y: -220.91331}
+      - {x: 1460.9375, y: -215.7558}
+      - {x: 1460.9375, y: -169.33823}
+      - {x: 1452.3438, y: -162.46155}
+    - - {x: 278.4375, y: -162.46155}
+      - {x: 266.40625, y: -176.2149}
+      - {x: 262.96875, y: -184.81075}
+      - {x: 262.96875, y: -205.44078}
+      - {x: 268.125, y: -219.19414}
+      - {x: 305.9375, y: -219.19414}
+      - {x: 312.8125, y: -217.47498}
+      - {x: 312.8125, y: -177.93407}
+      - {x: 293.90625, y: -162.46155}
+    - - {x: -850.78125, y: -171.05739}
+      - {x: -873.125, y: -171.05739}
+      - {x: -886.875, y: -176.2149}
+      - {x: -886.875, y: -203.72162}
+      - {x: -881.71875, y: -212.31746}
+      - {x: -854.21875, y: -212.31746}
+      - {x: -840.46875, y: -200.28328}
+      - {x: -840.46875, y: -181.3724}
+    - - {x: -1698.125, y: 67.9072}
+      - {x: -1701.5625, y: 64.468864}
+      - {x: -1701.5625, y: -64.468864}
+      - {x: -1698.125, y: -67.9072}
+      - {x: -1567.5, y: -67.9072}
+      - {x: -1564.0625, y: -64.468864}
+      - {x: -1564.0625, y: 64.468864}
+      - {x: -1567.5, y: 67.9072}
+    - - {x: -1509.0625, y: 67.9072}
+      - {x: -1509.0625, y: -67.9072}
+      - {x: -1371.5625, y: -67.9072}
+      - {x: -1371.5625, y: 67.9072}
+    - - {x: -1313.125, y: 67.9072}
+      - {x: -1316.5625, y: 64.468864}
+      - {x: -1316.5625, y: -64.468864}
+      - {x: -1313.125, y: -67.9072}
+      - {x: -1182.5, y: -67.9072}
+      - {x: -1179.0625, y: -64.468864}
+      - {x: -1179.0625, y: 64.468864}
+      - {x: -1182.5, y: 67.9072}
+    - - {x: -1120.625, y: 67.9072}
+      - {x: -1124.0625, y: 64.468864}
+      - {x: -1124.0625, y: -64.468864}
+      - {x: -1120.625, y: -67.9072}
+      - {x: -990.00006, y: -67.9072}
+      - {x: -986.56256, y: -64.468864}
+      - {x: -986.56256, y: 64.468864}
+      - {x: -990.00006, y: 67.9072}
+    - - {x: 1576.0938, y: 54.153847}
+      - {x: 1576.0938, y: -57.592186}
+      - {x: 1689.5312, y: -57.592186}
+      - {x: 1689.5312, y: 47.27717}
+      - {x: 1675.7812, y: 54.153847}
+    - - {x: -857.65625, y: 21.489622}
+      - {x: -874.84375, y: 21.489622}
+      - {x: -880, y: 16.332113}
+      - {x: -883.4375, y: -2.5787547}
+      - {x: -883.4375, y: -47.27717}
+      - {x: -876.5625, y: -52.434677}
+      - {x: -847.34375, y: -52.434677}
+      - {x: -845.625, y: -50.715508}
+      - {x: -845.625, y: 14.612943}
+      - {x: -847.34375, y: 16.332113}
+    - - {x: -660, y: 48.996338}
+      - {x: -675.46875, y: 48.996338}
+      - {x: -685.78125, y: 45.558}
+      - {x: -692.65625, y: 28.3663}
+      - {x: -694.375, y: 6.017094}
+      - {x: -694.375, y: -42.11966}
+      - {x: -692.65625, y: -52.434677}
+      - {x: -647.96875, y: -52.434677}
+      - {x: -647.96875, y: 38.68132}
+    - - {x: -472.65625, y: 23.208792}
+      - {x: -493.28128, y: 23.208792}
+      - {x: -503.59378, y: -7.7362638}
+      - {x: -503.59378, y: -36.96215}
+      - {x: -493.28128, y: -52.434677}
+      - {x: -469.21875, y: -52.434677}
+      - {x: -457.1875, y: -42.11966}
+      - {x: -457.1875, y: 9.455434}
+    - - {x: -304.21875, y: 52.434677}
+      - {x: -319.6875, y: 9.455434}
+      - {x: -319.6875, y: -47.27717}
+      - {x: -314.53125, y: -52.434677}
+      - {x: -257.8125, y: -52.434677}
+      - {x: -257.8125, y: 2.5787547}
+      - {x: -276.71875, y: 52.434677}
+    - - {x: -115.15625, y: -48.996338}
+      - {x: -113.4375, y: -50.715508}
+      - {x: -85.9375, y: -50.715508}
+      - {x: -77.34375, y: -47.27717}
+      - {x: -77.34375, y: -24.927961}
+      - {x: -80.78125, y: -14.612943}
+      - {x: -87.65625, y: -11.174603}
+      - {x: -106.5625, y: -11.174603}
+      - {x: -115.15625, y: -28.3663}
+    - - {x: 276.71875, y: 40.40049}
+      - {x: 264.6875, y: 23.208792}
+      - {x: 262.96875, y: 11.174603}
+      - {x: 262.96875, y: -35.24298}
+      - {x: 264.6875, y: -40.40049}
+      - {x: 312.8125, y: -40.40049}
+      - {x: 312.8125, y: 24.927961}
+      - {x: 297.34375, y: 40.40049}
+    - - {x: 469.21875, y: 28.3663}
+      - {x: 458.90625, y: 21.489622}
+      - {x: 458.90625, y: -19.770452}
+      - {x: 460.625, y: -28.3663}
+      - {x: 500.15628, y: -28.3663}
+      - {x: 501.87503, y: -21.489622}
+      - {x: 501.87503, y: 19.770452}
+      - {x: 491.56253, y: 28.3663}
+    - - {x: 656.5625, y: 28.3663}
+      - {x: 651.40625, y: 26.647131}
+      - {x: 651.40625, y: -28.3663}
+      - {x: 690.9375, y: -28.3663}
+      - {x: 692.65625, y: -23.208792}
+      - {x: 692.65625, y: 28.3663}
+    - - {x: 886.875, y: 33.52381}
+      - {x: 850.78125, y: 33.52381}
+      - {x: 838.75, y: 18.051283}
+      - {x: 838.75, y: -16.332113}
+      - {x: 840.46875, y: -28.3663}
+      - {x: 881.71875, y: -28.3663}
+      - {x: 885.15625, y: -23.208792}
+      - {x: 888.59375, y: -11.174603}
+      - {x: 888.59375, y: 30.08547}
+    - - {x: 1045, y: 30.08547}
+      - {x: 1032.9688, y: 23.208792}
+      - {x: 1032.9688, y: -16.332113}
+      - {x: 1039.8438, y: -28.3663}
+      - {x: 1074.2188, y: -28.3663}
+      - {x: 1079.375, y: -23.208792}
+      - {x: 1079.375, y: 23.208792}
+      - {x: 1074.2188, y: 30.08547}
+    - - {x: 1232.3438, y: 30.08547}
+      - {x: 1223.75, y: 23.208792}
+      - {x: 1223.75, y: -21.489622}
+      - {x: 1225.4688, y: -28.3663}
+      - {x: 1268.4375, y: -28.3663}
+      - {x: 1273.5938, y: -6.017094}
+      - {x: 1273.5938, y: 19.770452}
+      - {x: 1265, y: 30.08547}
+    - - {x: 1430, y: 28.3663}
+      - {x: 1419.6875, y: 18.051283}
+      - {x: 1419.6875, y: -28.3663}
+      - {x: 1460.9375, y: -28.3663}
+      - {x: 1460.9375, y: 21.489622}
+      - {x: 1454.0625, y: 28.3663}
+    - - {x: 56.71875, y: 18.051283}
+      - {x: 55, y: 14.612943}
+      - {x: 55, y: -16.332113}
+      - {x: 61.875004, y: -21.489622}
+      - {x: 127.18751, y: -21.489622}
+      - {x: 137.5, y: -16.332113}
+      - {x: 137.5, y: 11.174603}
+      - {x: 130.625, y: 18.051283}
+    - - {x: -1701.5625, y: 260.45422}
+      - {x: -1701.5625, y: 124.63981}
+      - {x: -1696.4062, y: 122.92064}
+      - {x: -1567.5, y: 122.92064}
+      - {x: -1564.0625, y: 126.35898}
+      - {x: -1564.0625, y: 257.01587}
+      - {x: -1567.5, y: 260.45422}
+    - - {x: -1509.0625, y: 260.45422}
+      - {x: -1509.0625, y: 122.92064}
+      - {x: -1371.5625, y: 122.92064}
+      - {x: -1371.5625, y: 260.45422}
+    - - {x: -1313.125, y: 260.45422}
+      - {x: -1316.5625, y: 257.01587}
+      - {x: -1316.5625, y: 126.35898}
+      - {x: -1313.125, y: 122.92064}
+      - {x: -1182.5, y: 122.92064}
+      - {x: -1179.0625, y: 126.35898}
+      - {x: -1179.0625, y: 257.01587}
+      - {x: -1182.5, y: 260.45422}
+    - - {x: -1120.625, y: 260.45422}
+      - {x: -1124.0625, y: 257.01587}
+      - {x: -1124.0625, y: 126.35898}
+      - {x: -1120.625, y: 122.92064}
+      - {x: -990.00006, y: 122.92064}
+      - {x: -986.56256, y: 126.35898}
+      - {x: -986.56256, y: 257.01587}
+      - {x: -990.00006, y: 260.45422}
+    - - {x: -929.84375, y: 260.45422}
+      - {x: -933.28125, y: 257.01587}
+      - {x: -933.28125, y: 126.35898}
+      - {x: -929.84375, y: 122.92064}
+      - {x: -799.21875, y: 122.92064}
+      - {x: -795.78125, y: 126.35898}
+      - {x: -795.78125, y: 257.01587}
+      - {x: -799.21875, y: 260.45422}
+    - - {x: -737.34375, y: 260.45422}
+      - {x: -740.78125, y: 257.01587}
+      - {x: -740.78125, y: 126.35898}
+      - {x: -737.34375, y: 122.92064}
+      - {x: -606.71875, y: 122.92064}
+      - {x: -603.28125, y: 126.35898}
+      - {x: -603.28125, y: 257.01587}
+      - {x: -606.71875, y: 260.45422}
+    - - {x: -544.84375, y: 260.45422}
+      - {x: -548.28125, y: 257.01587}
+      - {x: -548.28125, y: 126.35898}
+      - {x: -544.84375, y: 122.92064}
+      - {x: -414.21875, y: 122.92064}
+      - {x: -410.78125, y: 126.35898}
+      - {x: -410.78125, y: 257.01587}
+      - {x: -414.21875, y: 260.45422}
+    - - {x: -354.0625, y: 260.45422}
+      - {x: -357.5, y: 257.01587}
+      - {x: -357.5, y: 126.35898}
+      - {x: -354.0625, y: 122.92064}
+      - {x: -223.4375, y: 122.92064}
+      - {x: -220, y: 126.35898}
+      - {x: -220, y: 257.01587}
+      - {x: -223.4375, y: 260.45422}
+    - - {x: -161.5625, y: 260.45422}
+      - {x: -165, y: 257.01587}
+      - {x: -165, y: 126.35898}
+      - {x: -161.5625, y: 122.92064}
+      - {x: -30.937502, y: 122.92064}
+      - {x: -27.5, y: 126.35898}
+      - {x: -27.5, y: 257.01587}
+      - {x: -30.937502, y: 260.45422}
+    - - {x: 826.71875, y: 232.9475}
+      - {x: 823.28125, y: 226.07082}
+      - {x: 823.28125, y: 134.95482}
+      - {x: 835.3125, y: 122.92064}
+      - {x: 893.75, y: 122.92064}
+      - {x: 904.0625, y: 153.86569}
+      - {x: 904.0625, y: 222.63248}
+      - {x: 890.3125, y: 232.9475}
+    - - {x: 1457.5, y: 212.31746}
+      - {x: 1424.8438, y: 212.31746}
+      - {x: 1392.1875, y: 195.12576}
+      - {x: 1392.1875, y: 122.92064}
+      - {x: 1485, y: 122.92064}
+      - {x: 1488.4375, y: 124.63981}
+      - {x: 1488.4375, y: 140.11234}
+      - {x: 1483.2812, y: 183.09158}
+    - - {x: 1187.6562, y: 257.01587}
+      - {x: 1187.6562, y: 155.58487}
+      - {x: 1194.5312, y: 133.23566}
+      - {x: 1199.6875, y: 128.07814}
+      - {x: 1295.9375, y: 128.07814}
+      - {x: 1306.25, y: 129.79732}
+      - {x: 1307.9688, y: 159.02321}
+      - {x: 1307.9688, y: 257.01587}
+    - - {x: 1024.375, y: 236.38583}
+      - {x: 1024.375, y: 229.50916}
+      - {x: 1019.2188, y: 164.18071}
+      - {x: 1019.2188, y: 146.98901}
+      - {x: 1093.125, y: 146.98901}
+      - {x: 1093.125, y: 232.9475}
+      - {x: 1079.375, y: 236.38583}
+    - - {x: 458.90625, y: 232.9475}
+      - {x: 440, y: 220.91331}
+      - {x: 440, y: 159.02321}
+      - {x: 462.34375, y: 152.14653}
+      - {x: 532.8125, y: 152.14653}
+      - {x: 548.28125, y: 162.46155}
+      - {x: 548.28125, y: 222.63248}
+      - {x: 529.375, y: 232.9475}
+    - - {x: 644.53125, y: 260.45422}
+      - {x: 630.78125, y: 226.07082}
+      - {x: 630.78125, y: 165.89989}
+      - {x: 646.25, y: 152.14653}
+      - {x: 692.65625, y: 152.14653}
+      - {x: 697.8125, y: 153.86569}
+      - {x: 713.28125, y: 169.33823}
+      - {x: 713.28125, y: 229.50916}
+      - {x: 704.6875, y: 260.45422}
+    - - {x: 68.75, y: 260.45422}
+      - {x: 68.75, y: 195.12576}
+      - {x: 70.46875, y: 174.49573}
+      - {x: 96.25, y: 157.30403}
+      - {x: 147.8125, y: 157.30403}
+      - {x: 165, y: 162.46155}
+      - {x: 165, y: 222.63248}
+      - {x: 163.28125, y: 241.54335}
+      - {x: 120.3125, y: 260.45422}
+    - - {x: 257.8125, y: 260.45422}
+      - {x: 221.71875, y: 226.07082}
+      - {x: 220, y: 219.19414}
+      - {x: 220, y: 165.89989}
+      - {x: 299.0625, y: 165.89989}
+      - {x: 323.125, y: 184.81075}
+      - {x: 323.125, y: 251.85837}
+      - {x: 321.40625, y: 260.45422}
+    - - {x: 1582.9688, y: 171.05739}
+      - {x: 1680.9375, y: 171.05739}
+      - {x: 1680.9375, y: 260.45422}
+      - {x: 1582.9688, y: 260.45422}
+    - - {x: -1696.4062, y: 453.00122}
+      - {x: -1701.5625, y: 451.28207}
+      - {x: -1701.5625, y: 315.46765}
+      - {x: -1567.5, y: 315.46765}
+      - {x: -1564.0625, y: 318.90598}
+      - {x: -1564.0625, y: 449.5629}
+      - {x: -1567.5, y: 453.00122}
+    - - {x: -1509.0625, y: 453.00122}
+      - {x: -1509.0625, y: 315.46765}
+      - {x: -1371.5625, y: 315.46765}
+      - {x: -1371.5625, y: 453.00122}
+    - - {x: -1313.125, y: 453.00122}
+      - {x: -1316.5625, y: 449.5629}
+      - {x: -1316.5625, y: 318.90598}
+      - {x: -1313.125, y: 315.46765}
+      - {x: -1182.5, y: 315.46765}
+      - {x: -1179.0625, y: 318.90598}
+      - {x: -1179.0625, y: 449.5629}
+      - {x: -1182.5, y: 453.00122}
+    - - {x: -1120.625, y: 453.00122}
+      - {x: -1124.0625, y: 449.5629}
+      - {x: -1124.0625, y: 318.90598}
+      - {x: -1120.625, y: 315.46765}
+      - {x: -990.00006, y: 315.46765}
+      - {x: -986.56256, y: 318.90598}
+      - {x: -986.56256, y: 449.5629}
+      - {x: -990.00006, y: 453.00122}
+    - - {x: -929.84375, y: 453.00122}
+      - {x: -933.28125, y: 449.5629}
+      - {x: -933.28125, y: 318.90598}
+      - {x: -929.84375, y: 315.46765}
+      - {x: -799.21875, y: 315.46765}
+      - {x: -795.78125, y: 318.90598}
+      - {x: -795.78125, y: 449.5629}
+      - {x: -799.21875, y: 453.00122}
+    - - {x: -737.34375, y: 453.00122}
+      - {x: -740.78125, y: 449.5629}
+      - {x: -740.78125, y: 318.90598}
+      - {x: -737.34375, y: 315.46765}
+      - {x: -606.71875, y: 315.46765}
+      - {x: -603.28125, y: 318.90598}
+      - {x: -603.28125, y: 449.5629}
+      - {x: -606.71875, y: 453.00122}
+    - - {x: -544.84375, y: 453.00122}
+      - {x: -548.28125, y: 449.5629}
+      - {x: -548.28125, y: 318.90598}
+      - {x: -544.84375, y: 315.46765}
+      - {x: -414.21875, y: 315.46765}
+      - {x: -410.78125, y: 318.90598}
+      - {x: -410.78125, y: 449.5629}
+      - {x: -414.21875, y: 453.00122}
+    - - {x: -354.0625, y: 453.00122}
+      - {x: -357.5, y: 449.5629}
+      - {x: -357.5, y: 318.90598}
+      - {x: -354.0625, y: 315.46765}
+      - {x: -223.4375, y: 315.46765}
+      - {x: -220, y: 318.90598}
+      - {x: -220, y: 449.5629}
+      - {x: -223.4375, y: 453.00122}
+    - - {x: -161.5625, y: 453.00122}
+      - {x: -165, y: 449.5629}
+      - {x: -165, y: 318.90598}
+      - {x: -161.5625, y: 315.46765}
+      - {x: -30.937502, y: 315.46765}
+      - {x: -27.5, y: 318.90598}
+      - {x: -27.5, y: 449.5629}
+      - {x: -30.937502, y: 453.00122}
+    - - {x: 110, y: 410.02197}
+      - {x: 97.96875, y: 408.30283}
+      - {x: 61.875004, y: 394.54947}
+      - {x: 61.875004, y: 318.90598}
+      - {x: 72.1875, y: 315.46765}
+      - {x: 130.625, y: 315.46765}
+      - {x: 165, y: 353.2894}
+      - {x: 165, y: 410.02197}
+    - - {x: 220, y: 418.61783}
+      - {x: 220, y: 318.90598}
+      - {x: 235.46875, y: 315.46765}
+      - {x: 314.53125, y: 315.46765}
+      - {x: 314.53125, y: 413.46033}
+      - {x: 295.625, y: 418.61783}
+    - - {x: 637.65625, y: 453.00122}
+      - {x: 603.28125, y: 410.02197}
+      - {x: 603.28125, y: 315.46765}
+      - {x: 706.40625, y: 315.46765}
+      - {x: 706.40625, y: 447.84372}
+      - {x: 702.96875, y: 453.00122}
+    - - {x: 831.875, y: 453.00122}
+      - {x: 828.4375, y: 387.6728}
+      - {x: 828.4375, y: 315.46765}
+      - {x: 907.5, y: 315.46765}
+      - {x: 933.28125, y: 327.50183}
+      - {x: 933.28125, y: 442.68622}
+      - {x: 909.21875, y: 453.00122}
+    - - {x: 412.5, y: 423.77533}
+      - {x: 410.78125, y: 415.1795}
+      - {x: 410.78125, y: 349.85104}
+      - {x: 436.5625, y: 342.97437}
+      - {x: 495.00003, y: 342.97437}
+      - {x: 520.78125, y: 353.2894}
+      - {x: 520.78125, y: 401.42615}
+      - {x: 505.31253, y: 423.77533}
+    - - {x: 1199.6875, y: 453.00122}
+      - {x: 1199.6875, y: 358.4469}
+      - {x: 1295.9375, y: 358.4469}
+      - {x: 1295.9375, y: 434.09036}
+      - {x: 1287.3438, y: 453.00122}
+    - - {x: 1375, y: 453.00122}
+      - {x: 1375, y: 368.7619}
+      - {x: 1380.1562, y: 367.04276}
+      - {x: 1503.9062, y: 367.04276}
+      - {x: 1503.9062, y: 453.00122}
+    - - {x: 1007.18756, y: 370.48108}
+      - {x: 1105.1562, y: 370.48108}
+      - {x: 1105.1562, y: 453.00122}
+      - {x: 1007.18756, y: 453.00122}
+    - - {x: 1576.0938, y: 453.00122}
+      - {x: 1576.0938, y: 379.07693}
+      - {x: 1579.5312, y: 375.63858}
+      - {x: 1689.5312, y: 375.63858}
+      - {x: 1689.5312, y: 453.00122}
+    - - {x: -1696.4062, y: 645.5482}
+      - {x: -1701.5625, y: 643.8291}
+      - {x: -1701.5625, y: 508.01465}
+      - {x: -1567.5, y: 508.01465}
+      - {x: -1564.0625, y: 511.453}
+      - {x: -1564.0625, y: 642.1099}
+      - {x: -1567.5, y: 645.5482}
+    - - {x: -1509.0625, y: 645.5482}
+      - {x: -1509.0625, y: 508.01465}
+      - {x: -1371.5625, y: 508.01465}
+      - {x: -1371.5625, y: 645.5482}
+    - - {x: -1313.125, y: 645.5482}
+      - {x: -1316.5625, y: 642.1099}
+      - {x: -1316.5625, y: 511.453}
+      - {x: -1313.125, y: 508.01465}
+      - {x: -1182.5, y: 508.01465}
+      - {x: -1179.0625, y: 511.453}
+      - {x: -1179.0625, y: 642.1099}
+      - {x: -1182.5, y: 645.5482}
+    - - {x: -1120.625, y: 645.5482}
+      - {x: -1124.0625, y: 642.1099}
+      - {x: -1124.0625, y: 511.453}
+      - {x: -1120.625, y: 508.01465}
+      - {x: -990.00006, y: 508.01465}
+      - {x: -986.56256, y: 511.453}
+      - {x: -986.56256, y: 640.39075}
+      - {x: -991.7188, y: 645.5482}
+    - - {x: -928.125, y: 645.5482}
+      - {x: -933.28125, y: 640.39075}
+      - {x: -933.28125, y: 511.453}
+      - {x: -929.84375, y: 508.01465}
+      - {x: -799.21875, y: 508.01465}
+      - {x: -795.78125, y: 511.453}
+      - {x: -795.78125, y: 642.1099}
+      - {x: -799.21875, y: 645.5482}
+    - - {x: -737.34375, y: 645.5482}
+      - {x: -740.78125, y: 642.1099}
+      - {x: -740.78125, y: 511.453}
+      - {x: -737.34375, y: 508.01465}
+      - {x: -606.71875, y: 508.01465}
+      - {x: -603.28125, y: 511.453}
+      - {x: -603.28125, y: 642.1099}
+      - {x: -606.71875, y: 645.5482}
+    - - {x: -544.84375, y: 645.5482}
+      - {x: -548.28125, y: 642.1099}
+      - {x: -548.28125, y: 511.453}
+      - {x: -544.84375, y: 508.01465}
+      - {x: -414.21875, y: 508.01465}
+      - {x: -410.78125, y: 511.453}
+      - {x: -410.78125, y: 640.39075}
+      - {x: -415.9375, y: 645.5482}
+    - - {x: -352.34375, y: 645.5482}
+      - {x: -357.5, y: 640.39075}
+      - {x: -357.5, y: 511.453}
+      - {x: -354.0625, y: 508.01465}
+      - {x: -223.4375, y: 508.01465}
+      - {x: -220, y: 511.453}
+      - {x: -220, y: 642.1099}
+      - {x: -223.4375, y: 645.5482}
+    - - {x: -159.84375, y: 645.5482}
+      - {x: -165, y: 640.39075}
+      - {x: -165, y: 511.453}
+      - {x: -161.5625, y: 508.01465}
+      - {x: -30.937502, y: 508.01465}
+      - {x: -27.5, y: 511.453}
+      - {x: -27.5, y: 642.1099}
+      - {x: -30.937502, y: 645.5482}
+    - - {x: 130.625, y: 626.6374}
+      - {x: 123.75001, y: 645.5482}
+      - {x: 77.34375, y: 645.5482}
+      - {x: 68.75, y: 640.39075}
+      - {x: 60.15625, y: 569.9048}
+      - {x: 60.15625, y: 518.32965}
+      - {x: 68.75, y: 508.01465}
+      - {x: 118.59375, y: 508.01465}
+      - {x: 122.03126, y: 511.453}
+      - {x: 122.03126, y: 516.61053}
+      - {x: 130.625, y: 590.5348}
+    - - {x: 517.34375, y: 645.5482}
+      - {x: 427.96875, y: 645.5482}
+      - {x: 410.78125, y: 606.0073}
+      - {x: 410.78125, y: 521.768}
+      - {x: 445.15625, y: 508.01465}
+      - {x: 503.59378, y: 508.01465}
+      - {x: 536.25, y: 521.768}
+      - {x: 548.28125, y: 550.9939}
+      - {x: 548.28125, y: 631.79486}
+    - - {x: 739.0625, y: 604.28815}
+      - {x: 684.0625, y: 611.16486}
+      - {x: 605, y: 611.16486}
+      - {x: 603.28125, y: 609.4457}
+      - {x: 603.28125, y: 525.20636}
+      - {x: 647.96875, y: 508.01465}
+      - {x: 715, y: 508.01465}
+      - {x: 739.0625, y: 535.52136}
+      - {x: 740.78125, y: 547.55554}
+      - {x: 740.78125, y: 604.28815}
+    - - {x: 1084.5312, y: 588.8156}
+      - {x: 1020.93756, y: 588.8156}
+      - {x: 1007.18756, y: 557.8706}
+      - {x: 1007.18756, y: 508.01465}
+      - {x: 1105.1562, y: 508.01465}
+      - {x: 1105.1562, y: 556.1514}
+      - {x: 1093.125, y: 587.0965}
+    - - {x: 1258.125, y: 600.84985}
+      - {x: 1244.375, y: 600.84985}
+      - {x: 1206.5625, y: 581.93896}
+      - {x: 1206.5625, y: 508.01465}
+      - {x: 1285.625, y: 508.01465}
+      - {x: 1289.0625, y: 511.453}
+      - {x: 1289.0625, y: 575.06226}
+    - - {x: 1491.875, y: 592.25397}
+      - {x: 1375, y: 592.25397}
+      - {x: 1375, y: 508.01465}
+      - {x: 1500.4688, y: 508.01465}
+      - {x: 1503.9062, y: 511.453}
+      - {x: 1503.9062, y: 585.3773}
+    - - {x: 1576.0938, y: 585.3773}
+      - {x: 1576.0938, y: 508.01465}
+      - {x: 1689.5312, y: 508.01465}
+      - {x: 1689.5312, y: 538.9597}
+      - {x: 1687.8125, y: 549.2747}
+      - {x: 1643.125, y: 585.3773}
+    - - {x: 226.875, y: 611.16486}
+      - {x: 220, y: 607.7265}
+      - {x: 220, y: 540.6789}
+      - {x: 357.5, y: 540.6789}
+      - {x: 357.5, y: 602.569}
+      - {x: 330, y: 611.16486}
+    - - {x: 843.90625, y: 645.5482}
+      - {x: 837.03125, y: 642.1099}
+      - {x: 837.03125, y: 636.9524}
+      - {x: 795.78125, y: 602.569}
+      - {x: 795.78125, y: 544.11725}
+      - {x: 835.3125, y: 540.6789}
+      - {x: 919.53125, y: 540.6789}
+      - {x: 933.28125, y: 547.55554}
+      - {x: 933.28125, y: 616.3223}
+      - {x: 904.0625, y: 645.5482}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

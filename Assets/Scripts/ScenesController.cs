@@ -11,6 +11,8 @@ public class ScenesController : MonoBehaviour
     private string mapMakerSceneName;
     [SerializeField]
     private string mainMenuSceneName;
+    [SerializeField]
+    private string campaignsMenuSceneName;
 
     public void ToGameplay()
     {
@@ -25,5 +27,10 @@ public class ScenesController : MonoBehaviour
     public void ToMainMenu()
     {
         SceneManager.LoadScene(mainMenuSceneName);
+    }
+
+    public void ToCampaignsMenu()
+    {
+        SceneManager.LoadScene(campaignsMenuSceneName);
     }
 }

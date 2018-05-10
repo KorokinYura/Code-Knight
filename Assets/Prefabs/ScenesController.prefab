@@ -54,3 +54,4 @@ MonoBehaviour:
   gameplaySceneName: Gameplay
   mapMakerSceneName: MapMaker
   mainMenuSceneName: MainMenu
+  campaignsMenuSceneName: CampaignsMenu

@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour
     }
     public void ResetLevel()
     {
-        MapMakerController.Instance.LoadMap(false);
+        MapMakerController.Instance.LoadMap(MapMakerController.CurLoadString, false);
         tickController.StopTicks();
     }
 
