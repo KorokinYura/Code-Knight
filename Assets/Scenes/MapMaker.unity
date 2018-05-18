@@ -2217,6 +2217,11 @@ Prefab:
       propertyPath: mapObjectCommandsEditor
       value: 
       objectReference: {fileID: 503581499}
+    - target: {fileID: 114253184452757510, guid: 8fd1305b40aa65643b964ce75d4f7d69,
+        type: 2}
+      propertyPath: mapMakerScene
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fd1305b40aa65643b964ce75d4f7d69, type: 2}
   m_IsPrefabParent: 0

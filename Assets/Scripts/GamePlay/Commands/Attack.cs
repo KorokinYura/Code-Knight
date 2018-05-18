@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Attack : Command
 {
@@ -7,6 +6,8 @@ public class Attack : Command
 
     public override bool Activate(float time)
     {
+        if (obj == null) return false;
+
         RaycastHit2D hit = CheckFront(obj);
         if (hit.transform == null) return false;
         IMortal m = hit.transform.GetComponent<IMortal>();

@@ -8,14 +8,16 @@ public class AimBehaviour : MapObjectBehaviour
     {
         while (true)
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.zero, 0.1f);
-            Debug.Log(hit.transform);
-            if (hit.transform != null && hit.transform.gameObject.tag == "Player")
+            RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, Vector2.zero, 0.1f);
+            foreach(RaycastHit2D hit in hits)
             {
-                Debug.Log(123);
-                // TODO: implement it blin and delete chto tap napisano
-                GameObject.Find("ScenesController").GetComponent<ScenesController>().ToCampaignsMenu();
-                // TODO
+                if(hit.transform != null && hit.transform.tag == "Player")
+                {
+                    CampaignsMenuController.SetCurrentLevelScore(GameController.Instance.CommandsAmount);
+                    // not final
+                    ScenesController.Instance.ToCampaignsMenu();
+                    // not final
+                }
             }
             yield return new WaitForSeconds(tickTime);
         }

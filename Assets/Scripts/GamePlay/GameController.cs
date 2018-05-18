@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private int maxCommandsAmount;
     public int MaxCommandsAmount { get { return maxCommandsAmount; } }
+    public int CommandsAmount { get; private set; }
     [Space]
     [SerializeField]
     private GameObject mainCommandsList;
@@ -48,7 +49,6 @@ public class GameController : MonoBehaviour
     public void StartLevel()
     {
         tickController.StartTicks();
-        // needs to be implemented
     }
     public void ResetLevel()
     {
@@ -113,7 +113,9 @@ public class GameController : MonoBehaviour
         if (mainCommandsList == null) return null;
         CommandUI[] arr = mainCommandsList.GetComponentsInChildren<CommandUI>();
         int amount = maxCommandsAmount;
-        return GetRecCommandUIs(arr, ref amount);
+        List<CommandUI> cmdsUIs = GetRecCommandUIs(arr, ref amount);
+        CommandsAmount = maxCommandsAmount - amount;
+        return cmdsUIs;
     }
     private List<CommandUI> GetRecCommandUIs(CommandUI[] arr, ref int amount)
     {

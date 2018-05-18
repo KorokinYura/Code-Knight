@@ -33,22 +33,36 @@ public class Enemy : MapObjectBehaviour, IMortal
                 else
                 {
                     RaycastHit2D hit;
-                    hit = Physics2D.Raycast(transform.position, Vector2.up, 1);
+                    hit = Physics2D.Raycast(transform.position + (Vector3)Vector2.up, Vector2.zero, 1);
                     playerAngleZ = 0;
                     if (hit.transform == null || hit.transform.tag != "Player")
                     {
-                        hit = Physics2D.Raycast(transform.position, Vector2.right, 1);
+                        hit = Physics2D.Raycast(transform.position + (Vector3)Vector2.right, Vector2.zero, 1);
                         playerAngleZ = 270;
                     }
                     if (hit.transform == null || hit.transform.tag != "Player")
                     {
-                        hit = Physics2D.Raycast(transform.position, Vector2.down, 1);
+                        hit = Physics2D.Raycast(transform.position + (Vector3)Vector2.down, Vector2.zero, 1);
                         playerAngleZ = 180;
                     }
                     if (hit.transform == null || hit.transform.tag != "Player")
                     {
-                        hit = Physics2D.Raycast(transform.position, Vector2.left, 1);
+                        hit = Physics2D.Raycast(transform.position + (Vector3)Vector2.left, Vector2.zero, 1);
                         playerAngleZ = 90;
+                    }
+                    if(hit.transform == null || hit.transform.tag != "Player")
+                    {
+                        RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, Vector2.zero, 1);
+                        foreach(RaycastHit2D h in hits)
+                        {
+                            if (h.transform != null && h.transform.tag == "Player")
+                            {
+                                hit = h;
+                                playerAngleZ = (int)h.transform.localEulerAngles.z;
+                                yield return new WaitForSeconds(tickTime);
+                                break;
+                            }
+                        }
                     }
                     if (hit.transform != null && hit.transform.tag == "Player")
                     {

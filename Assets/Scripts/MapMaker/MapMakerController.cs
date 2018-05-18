@@ -10,7 +10,9 @@ public class MapMakerController : MonoBehaviour
         get { return GUIUtility.systemCopyBuffer; }
         set { GUIUtility.systemCopyBuffer = value; }
     }
-
+    [SerializeField]
+    private bool mapMakerScene;
+    [Space]
     [SerializeField]
     private GameObject map;
     public GameObject Map { get { return map; } }
@@ -34,10 +36,10 @@ public class MapMakerController : MonoBehaviour
 
     private void Start()
     {
-         if (CurLoadString != null)
-            LoadMap(CurLoadString, true);
+        if (CurLoadString != null)
+            LoadMap(CurLoadString, mapMakerScene);
         else
-            LoadMap(Clipboard, true);
+            LoadMap(Clipboard, mapMakerScene);
     }
 
     private string MapObjToSaveString(GameObject obj)
@@ -146,6 +148,8 @@ public class MapMakerController : MonoBehaviour
     }
     public void LoadMap(string loadStr, bool forMapMaker = false)
     {
+        if (loadStr == null) return;
+
         ClearMap();
 
         string[] strs = loadStr.Split('|');

@@ -14,6 +14,13 @@ public class ScenesController : MonoBehaviour
     [SerializeField]
     private string campaignsMenuSceneName;
 
+    public static ScenesController Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public void ToGameplay()
     {
         SceneManager.LoadScene(gameplaySceneName);

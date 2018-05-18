@@ -19,8 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4274365215077444}
-  - component: {fileID: 114342016010602836}
   - component: {fileID: 61126839070939592}
+  - component: {fileID: 114342016010602836}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player

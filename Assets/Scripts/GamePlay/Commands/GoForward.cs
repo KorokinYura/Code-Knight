@@ -9,7 +9,7 @@ public class GoForward : Command
     public override bool Activate(float time = 0)
     {
         RaycastHit2D hit = CheckFront(obj);
-        if (hit.transform != null && hit.transform.gameObject.tag == "Obstacle")
+        if (obj == null || (hit.transform != null && hit.transform.gameObject.tag == "Obstacle"))
         {
             return false;
         }

@@ -13,7 +13,8 @@ public abstract class Command
 
     protected static RaycastHit2D CheckFront(GameObject obj)
     {
-        return Physics2D.Raycast(obj.transform.position, obj.transform.up, 1);
+        if (obj == null) return new RaycastHit2D();
+        return Physics2D.Raycast(obj.transform.position + obj.transform.up, Vector2.zero, 1);
     }
 
     public abstract bool Activate(float time);

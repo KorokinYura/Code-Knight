@@ -8,6 +8,8 @@ public class Use : Command
 
     public override bool Activate(float time)
     {
+        if (obj == null) return false;
+
         RaycastHit2D hit = CheckFront(obj);
         if (hit.transform == null) return false;
         ITriggerable t = hit.transform.GetComponent<ITriggerable>();
