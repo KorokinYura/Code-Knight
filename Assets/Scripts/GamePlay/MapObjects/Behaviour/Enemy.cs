@@ -29,6 +29,7 @@ public class Enemy : MapObjectBehaviour, IMortal
         {
             foreach (Command c in Cmds)
             {
+                if (IsDead) break;
                 if (attacked) attacked = false;
                 else
                 {

@@ -9,6 +9,13 @@ public class PointerDownUpTrigger : MonoBehaviour, IPointerDownHandler, IPointer
     [SerializeField]
     private Color pointerDownColor;
 
+    [SerializeField]
+    private bool withSound = true;
+    [SerializeField]
+    private AudioSource buttonsAudioSource;
+    [SerializeField]
+    private AudioClip audioClip;
+
     private Vector3 prevScale;
     private Color prevColor;
 
@@ -21,6 +28,12 @@ public class PointerDownUpTrigger : MonoBehaviour, IPointerDownHandler, IPointer
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        if (withSound && buttonsAudioSource != null && audioClip != null)
+        {
+            buttonsAudioSource.clip = audioClip;
+            buttonsAudioSource.Play();
+        }
+
         prevScale = transform.localScale;
         transform.localScale = pointerDownScale;
         

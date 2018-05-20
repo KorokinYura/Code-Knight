@@ -272,35 +272,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 224514447414894988, guid: 3855ef3f698ae2f48ad3374e2d44c9e6,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.0000799
-      objectReference: {fileID: 0}
-    - target: {fileID: 224514447414894988, guid: 3855ef3f698ae2f48ad3374e2d44c9e6,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.0000799
-      objectReference: {fileID: 0}
-    - target: {fileID: 224514447414894988, guid: 3855ef3f698ae2f48ad3374e2d44c9e6,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.0000799
-      objectReference: {fileID: 0}
-    - target: {fileID: 1349468392941384, guid: 3855ef3f698ae2f48ad3374e2d44c9e6, type: 2}
-      propertyPath: m_Name
-      value: Level
-      objectReference: {fileID: 0}
-    - target: {fileID: 114390230331461618, guid: 3855ef3f698ae2f48ad3374e2d44c9e6,
-        type: 2}
-      propertyPath: loadString
-      value: Player,0,0,0|Aim,0,2,0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224150594164957612, guid: 3855ef3f698ae2f48ad3374e2d44c9e6,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3855ef3f698ae2f48ad3374e2d44c9e6, type: 2}
   m_IsPrefabParent: 0
