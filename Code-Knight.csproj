@@ -309,6 +309,7 @@
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Trigger\ITriggerable.cs" />
     <Compile Include="Assets\Scripts\GamePlay\MapObjects\Trigger\Lever.cs" />
     <Compile Include="Assets\Scripts\GamePlay\TickController.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\FallingStars.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\MapMaker\CommandsEditor\CommandsEditor.cs" />
     <Compile Include="Assets\Scripts\MapMaker\CommandsEditor\CommandsEditorCommand.cs" />
