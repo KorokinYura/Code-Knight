@@ -285,6 +285,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CampaignsMenu\CampaignMover.cs" />
     <Compile Include="Assets\Scripts\CampaignsMenu\CampaignsMenuController.cs" />
     <Compile Include="Assets\Scripts\CampaignsMenu\Level.cs" />
     <Compile Include="Assets\Scripts\GamePlay\CameraController.cs" />
@@ -318,8 +319,10 @@
     <Compile Include="Assets\Scripts\MapMaker\MapObjects.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapObjectsDestroyer.cs" />
     <Compile Include="Assets\Scripts\MapMaker\MapObjectUI.cs" />
+    <Compile Include="Assets\Scripts\MusicController.cs" />
     <Compile Include="Assets\Scripts\PointerDownUpTrigger.cs" />
     <Compile Include="Assets\Scripts\ScenesController.cs" />
+    <Compile Include="Assets\Scripts\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\ClassDiagram.cd" />

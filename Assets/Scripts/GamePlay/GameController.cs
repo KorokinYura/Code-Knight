@@ -80,6 +80,21 @@ public class GameController : MonoBehaviour
                 goto case 0;
         }
     }
+    public void ClearCommandLists()
+    {
+        foreach (CommandUI c in mainCommandsList.GetComponentsInChildren<CommandUI>())
+        {
+            Destroy(c.gameObject);
+        }
+        foreach (CommandUI c in func1CommandsList.GetComponentsInChildren<CommandUI>())
+        {
+            Destroy(c.gameObject);
+        }
+        foreach (CommandUI c in func2CommandsList.GetComponentsInChildren<CommandUI>())
+        {
+            Destroy(c.gameObject);
+        }
+    }
 
     private IEnumerator CommandUIsTracker(float tickTime)
     {

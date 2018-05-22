@@ -161,14 +161,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300096, guid: 685343edebf64e649bce27608c5e0b2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c0f72b52a27af84893e1a0fe84bc864, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -498,14 +498,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300030, guid: 685343edebf64e649bce27608c5e0b2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5918cafcfd59b864eb6ba1a58bdb5224, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -727,6 +727,7 @@ GameObject:
   - component: {fileID: 442577367}
   - component: {fileID: 442577366}
   - component: {fileID: 442577368}
+  - component: {fileID: 442577369}
   m_Layer: 5
   m_Name: Sound
   m_TagString: Untagged
@@ -764,14 +765,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300154, guid: 685343edebf64e649bce27608c5e0b2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ebd599c88e58b5488ae48a6933c15af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -801,6 +802,36 @@ MonoBehaviour:
   withSound: 1
   buttonsAudioSource: {fileID: 441507289}
   audioClip: {fileID: 8300000, guid: bce2243b72473704c8e35c52c772b2ac, type: 3}
+--- !u!114 &442577369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442577364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 724681601}
+          m_MethodName: TriggerSound
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &477006732
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,14 +927,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300186, guid: 685343edebf64e649bce27608c5e0b2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2fd401230ce48e54883198e752128f14, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1237,6 +1268,7 @@ GameObject:
   - component: {fileID: 724681597}
   - component: {fileID: 724681596}
   - component: {fileID: 724681600}
+  - component: {fileID: 724681601}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1316,9 +1348,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: b7deaf414b6f51849ae0bce34001ed81, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1387,6 +1419,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &724681601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724681595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1941f6d8d77f59249a46084e9f07ea93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicImage: {fileID: 1275671393}
+  musicOn: {fileID: 21300000, guid: 6ade3d7be6ce4f144b9eb823d6749d1a, type: 3}
+  musicOff: {fileID: 21300000, guid: a770da194397806488a0cdf7d329c79a, type: 3}
+  soundImage: {fileID: 442577366}
+  soundOn: {fileID: 21300000, guid: 193038e7e6210384daa8ca0cbd2aaa3d, type: 3}
+  soundOff: {fileID: 21300000, guid: 4ebd599c88e58b5488ae48a6933c15af, type: 3}
 --- !u!1 &1051114604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,6 +1530,7 @@ GameObject:
   - component: {fileID: 1177266776}
   - component: {fileID: 1177266775}
   - component: {fileID: 1177266777}
+  - component: {fileID: 1177266778}
   m_Layer: 5
   m_Name: Language
   m_TagString: Untagged
@@ -1518,7 +1568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1555,6 +1605,36 @@ MonoBehaviour:
   withSound: 1
   buttonsAudioSource: {fileID: 441507289}
   audioClip: {fileID: 8300000, guid: bce2243b72473704c8e35c52c772b2ac, type: 3}
+--- !u!114 &1177266778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177266773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 724681601}
+          m_MethodName: TriggerLanguage
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1275671391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1646,7 @@ GameObject:
   - component: {fileID: 1275671394}
   - component: {fileID: 1275671393}
   - component: {fileID: 1275671395}
+  - component: {fileID: 1275671396}
   m_Layer: 5
   m_Name: Music
   m_TagString: Untagged
@@ -1603,14 +1684,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300080, guid: 685343edebf64e649bce27608c5e0b2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a770da194397806488a0cdf7d329c79a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1640,6 +1721,36 @@ MonoBehaviour:
   withSound: 1
   buttonsAudioSource: {fileID: 441507289}
   audioClip: {fileID: 8300000, guid: bce2243b72473704c8e35c52c772b2ac, type: 3}
+--- !u!114 &1275671396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275671391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 724681601}
+          m_MethodName: TriggerMusic
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1279776284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,14 +1889,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300156, guid: 685343edebf64e649bce27608c5e0b2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 95fd61ebe8dcdf147a295f9ee04fc33b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1968,6 +2079,7 @@ GameObject:
   - component: {fileID: 1574647825}
   - component: {fileID: 1574647828}
   - component: {fileID: 1574647827}
+  - component: {fileID: 1574647829}
   m_Layer: 5
   m_Name: PlayBtn
   m_TagString: Untagged
@@ -2005,14 +2117,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5779ec9bccac548428de54457c78bfb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d222e4fba68be6d418a25e002eb70517, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2072,6 +2184,23 @@ MonoBehaviour:
   withSound: 0
   buttonsAudioSource: {fileID: 441507289}
   audioClip: {fileID: 8300000, guid: bce2243b72473704c8e35c52c772b2ac, type: 3}
+--- !u!95 &1574647829
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1574647823}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec679739390db9045b0ac757cae82c42, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1592595923
 GameObject:
   m_ObjectHideFlags: 0

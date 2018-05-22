@@ -929,6 +929,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
   pointerDownColor: {r: 0.77205884, g: 0.77205884, b: 0.77205884, a: 1}
+  withSound: 1
+  buttonsAudioSource: {fileID: 0}
+  audioClip: {fileID: 0}
 --- !u!1 &720334376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,6 +1139,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
   pointerDownColor: {r: 0.6985294, g: 0.6985294, b: 0.6985294, a: 1}
+  withSound: 1
+  buttonsAudioSource: {fileID: 0}
+  audioClip: {fileID: 0}
 --- !u!114 &776423566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2317,7 +2323,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300120, guid: 685343edebf64e649bce27608c5e0b2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd7eb546a3932d04196b3090c00ba8e7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2344,6 +2350,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
   pointerDownColor: {r: 0.77205884, g: 0.77205884, b: 0.77205884, a: 1}
+  withSound: 1
+  buttonsAudioSource: {fileID: 0}
+  audioClip: {fileID: 0}
 --- !u!1 &1586449149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2548,6 +2557,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerDownScale: {x: 1.1, y: 1.1, z: 1.1}
   pointerDownColor: {r: 0.6985294, g: 0.6985294, b: 0.6985294, a: 1}
+  withSound: 1
+  buttonsAudioSource: {fileID: 0}
+  audioClip: {fileID: 0}
 --- !u!114 &1611397924
 MonoBehaviour:
   m_ObjectHideFlags: 0

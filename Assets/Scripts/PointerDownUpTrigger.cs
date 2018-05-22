@@ -28,7 +28,7 @@ public class PointerDownUpTrigger : MonoBehaviour, IPointerDownHandler, IPointer
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (withSound && buttonsAudioSource != null && audioClip != null)
+        if (withSound && Settings.SoundOn && buttonsAudioSource != null && audioClip != null)
         {
             buttonsAudioSource.clip = audioClip;
             buttonsAudioSource.Play();
