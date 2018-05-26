@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AimBehaviour : MapObjectBehaviour
@@ -14,9 +13,8 @@ public class AimBehaviour : MapObjectBehaviour
                 if(hit.transform != null && hit.transform.tag == "Player")
                 {
                     CampaignsMenuController.SetCurrentLevelScore(GameController.Instance.CommandsAmount);
-                    // not final
-                    ScenesController.Instance.ToCampaignsMenu();
-                    // not final
+                    yield return new WaitForSeconds(tickTime / 2);
+                    PauseController.Instance.Win(GameController.Instance.CommandsAmount);
                 }
             }
             yield return new WaitForSeconds(tickTime);

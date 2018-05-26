@@ -1,6 +1,6 @@
 ﻿namespace MapObjects
 {
-    public enum MapObjectType
+    public enum яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя
     {
         Ground, Obstacle, Aim, Player, Trap, Door, Lever, Enemy
     }

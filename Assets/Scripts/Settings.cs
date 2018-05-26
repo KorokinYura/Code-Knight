@@ -66,7 +66,7 @@ public class Settings : MonoBehaviour
         settings[0] = settings[0] == "1" ? "0" : "1";
         PlayerPrefs.SetString(settingsSaveName, string.Format("{0};{1};{2}", settings[0], settings[1], settings[2]));
         LoadSettings();
-        GetComponent<AudioSource>().enabled = musicOn;
+        GetComponent<AudioSource>().enabled = MusicOn;
     }
     public void TriggerSound()
     {

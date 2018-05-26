@@ -51,13 +51,13 @@ public class MapMakerController : MonoBehaviour
                 + Mathf.Round(obj.transform.localEulerAngles.z / 90);
 
         Lever l = null;
-        if (obj.GetComponent<MapObjectController>().Type == MapObjectType.Lever)
+        if (obj.GetComponent<MapObjectController>().Type == яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя.Lever)
             l = obj.GetComponent<Lever>();
         if (l != null && l.TriggerObj != null)
             str += "," + MapObjToSaveString(l.TriggerObj);
 
         Enemy e = null;
-        if (obj.GetComponent<MapObjectController>().Type == MapObjectType.Enemy)
+        if (obj.GetComponent<MapObjectController>().Type == яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя.Enemy)
             e = obj.GetComponent<Enemy>();
         if (e != null)
         {
@@ -80,7 +80,7 @@ public class MapMakerController : MonoBehaviour
         try
         {
             string[] s = str.Split(',');
-            MapObjectType type = (MapObjectType)Enum.Parse(typeof(MapObjectType), s[0]);
+            яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя type = (яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя)Enum.Parse(typeof(яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя), s[0]);
 
             GameObject obj;
             if (forMapMaker) obj = MapObjectUI.CreateMapObject(type);
@@ -92,7 +92,7 @@ public class MapMakerController : MonoBehaviour
                 );
             obj.transform.localEulerAngles = new Vector3(0, 0, Int32.Parse(s[3]) * 90);
 
-            if (type == MapObjectType.Lever && s.Length > 4)
+            if (type == яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя.Lever && s.Length > 4)
             {
                 for (int i = 0; i < map.transform.childCount; i++)
                 {
@@ -111,7 +111,7 @@ public class MapMakerController : MonoBehaviour
                 obj.GetComponent<Lever>().TriggerObj = SaveStringToMapObject(str.Substring(index + 1), forMapMaker);
             }
 
-            if (type == MapObjectType.Enemy && s[4].Length > 2)
+            if (type == яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя.Enemy && s[4].Length > 2)
             {
                 string[] cStrs = s[4].Substring(1, s[4].Length - 2).Split('.');
                 List<Command> cmds = new List<Command>();

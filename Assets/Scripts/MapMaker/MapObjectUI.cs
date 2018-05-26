@@ -9,7 +9,7 @@ public class MapObjectUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public static GameObject DragObj { get; private set; }
 
     [SerializeField]
-    private MapObjectType type;
+    private яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя type;
 
     private void Update()
     {
@@ -32,7 +32,7 @@ public class MapObjectUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         DragObj = obj;
     }
 
-    public static GameObject CreateMapObject(MapObjectType type)
+    public static GameObject CreateMapObject(яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя type)
     {
         GameObject obj = Instantiate(MapMakerController.Instance.MapObjectsPrefabs[(int)type], MapMakerController.Instance.Map.transform);
 
