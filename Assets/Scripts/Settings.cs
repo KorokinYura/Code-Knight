@@ -19,6 +19,15 @@ public class Settings : MonoBehaviour
     private Sprite soundOn;
     [SerializeField]
     private Sprite soundOff;
+    [Space]
+    [SerializeField]
+    private Image languageImage;
+    [SerializeField]
+    private Sprite engFlag;
+    [SerializeField]
+    private Sprite rusFlag;
+    [SerializeField]
+    private Sprite ukrFlag;
 
     public static bool MusicOn { get; private set; }
     public static bool SoundOn { get; private set; }
@@ -57,7 +66,23 @@ public class Settings : MonoBehaviour
             SoundOn = true;
             soundImage.sprite = soundOn;
         }
-        // lang not implemented
+        // langs: eng, rus, ukr
+        if(settings[2] == "eng")
+        {
+            languageImage.sprite = engFlag;
+            LanguageController.LangType = LanguageController.Lang.ENG;
+        }
+        else if(settings[2] == "rus")
+        {
+            languageImage.sprite = rusFlag;
+            LanguageController.LangType = LanguageController.Lang.RUS;
+        }
+        else if(settings[2] == "ukr")
+        {
+            languageImage.sprite = ukrFlag;
+            LanguageController.LangType = LanguageController.Lang.UKR;
+        }
+        LanguageController.LangLoad();
     }
 
     public void TriggerMusic()
@@ -77,6 +102,9 @@ public class Settings : MonoBehaviour
     }
     public void TriggerLanguage()
     {
-        // lang not implemented
+        string[] settings = PlayerPrefs.GetString(settingsSaveName).Split(';');
+        settings[2] = settings[2] == "eng" ? "rus" : settings[2] == "rus" ? "ukr" : "eng";
+        PlayerPrefs.SetString(settingsSaveName, string.Format("{0};{1};{2}", settings[0], settings[1], settings[2]));
+        LoadSettings();
     }
 }

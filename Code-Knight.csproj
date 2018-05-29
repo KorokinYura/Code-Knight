@@ -311,7 +311,9 @@
     <Compile Include="Assets\Scripts\Gameplay\MapObjects\Trigger\Lever.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PauseController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TickController.cs" />
+    <Compile Include="Assets\Scripts\LanguageController.cs" />
     <Compile Include="Assets\Scripts\MainMenu\FallingStars.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\LangMainMenu.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\MapMaker\CommandsEditor\CommandsEditor.cs" />
     <Compile Include="Assets\Scripts\MapMaker\CommandsEditor\CommandsEditorCommand.cs" />
