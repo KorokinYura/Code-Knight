@@ -2,5 +2,5 @@
 	"info": "CREDITS\n\nPROGRAMMING\nMaxim Korokin\nYura Korokin\n\nDESIGN\nMaxim Korokin\nKirill Stanchik\nMaxim Pushkar\n\nSPRITES\nkenney.nl\nMaxim Korokin\nKirill Stanchik\n\nTESTING\nMaxim Korokin\nYura Korokin\nKirill Stanchik\nMaxim Pushkar",
 	"pauseName": "PAUSE",
 	"winName": "WIN",
-	"winText": "You are dick"
+	"winText": "You used {0} commands"
 }

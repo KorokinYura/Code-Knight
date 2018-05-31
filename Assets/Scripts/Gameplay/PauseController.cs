@@ -23,9 +23,9 @@ public class PauseController : MonoBehaviour
     public void Win(int cmdsAmount)
     {
         gameObject.SetActive(true);
-        nameText.text = "WIN";
+        nameText.text = LanguageController.Language.winName;
         infoText.gameObject.SetActive(true);
-        infoText.text = "You used " + cmdsAmount + " commands";
+        infoText.text = string.Format(LanguageController.Language.winText, cmdsAmount);
         replayBtn.SetActive(true);
         playBtn.SetActive(false);
     }
@@ -33,7 +33,7 @@ public class PauseController : MonoBehaviour
     public void Pause()
     {
         gameObject.SetActive(true);
-        nameText.text = "PAUSE";
+        nameText.text = LanguageController.Language.pauseName;
         infoText.gameObject.SetActive(false);
         replayBtn.SetActive(false);
         playBtn.SetActive(true);
