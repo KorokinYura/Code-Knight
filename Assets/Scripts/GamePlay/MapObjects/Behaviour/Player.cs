@@ -20,14 +20,17 @@ public class Player : MapObjectBehaviour, IMortal
 
     public void Die()
     {
+        Debug.Log(Blocked);
         StartCoroutine(DieCoroutine(TickController.TickTime * 2));
         IsDead = true;
+        GetComponent<Animator>().SetTrigger("Death");
     }
     private IEnumerator DieCoroutine(float time)
     {
         yield return new WaitForSeconds(time);
         //GameController.Instance.ResetLevel();
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        //Destroy(gameObject);
     }
 
     public void Block()
@@ -37,7 +40,9 @@ public class Player : MapObjectBehaviour, IMortal
     }
     private IEnumerator BlockCoroutine()
     {
+        Debug.Log(Blocked);
         yield return new WaitForSeconds(TickController.TickTime * 3);
         Blocked = false;
+        Debug.Log(Blocked);
     }
 }

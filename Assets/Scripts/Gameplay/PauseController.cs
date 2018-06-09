@@ -10,6 +10,8 @@ public class PauseController : MonoBehaviour
     [SerializeField]
     private Text nameText;
     [SerializeField]
+    private GameObject InfoTextBackground;
+    [SerializeField]
     private Text infoText;
 
     public static PauseController Instance { get; private set; }
@@ -24,7 +26,7 @@ public class PauseController : MonoBehaviour
     {
         gameObject.SetActive(true);
         nameText.text = LanguageController.Language.winName;
-        infoText.gameObject.SetActive(true);
+        InfoTextBackground.SetActive(true);
         infoText.text = string.Format(LanguageController.Language.winText, cmdsAmount);
         replayBtn.SetActive(true);
         playBtn.SetActive(false);
@@ -34,7 +36,7 @@ public class PauseController : MonoBehaviour
     {
         gameObject.SetActive(true);
         nameText.text = LanguageController.Language.pauseName;
-        infoText.gameObject.SetActive(false);
+        InfoTextBackground.SetActive(false);
         replayBtn.SetActive(false);
         playBtn.SetActive(true);
     }

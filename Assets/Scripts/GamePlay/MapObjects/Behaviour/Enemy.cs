@@ -85,13 +85,16 @@ public class Enemy : MapObjectBehaviour, IMortal
 
     public void Die()
     {
-        StartCoroutine(DieCoroutine(TickController.TickTime / 2));
+        StartCoroutine(DieCoroutine(TickController.TickTime));
         IsDead = true;
+        tag = "Untagged";
+        GetComponent<Animator>().SetTrigger("Death");
     }
     private IEnumerator DieCoroutine(float time)
     {
         yield return new WaitForSeconds(time);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        //Destroy(gameObject);
     }
 
     public void Block()

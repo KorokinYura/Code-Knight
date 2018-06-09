@@ -256,6 +256,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointerDownScale: {x: 1, y: 1.1, z: 1}
   pointerDownColor: {r: 1, g: 1, b: 1, a: 1}
+  withSound: 1
+  buttonsAudioSource: {fileID: 0}
+  audioClip: {fileID: 0}
 --- !u!222 &222267081106346318
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -342,7 +345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -499.99982, y: -200.00005}
+  m_AnchoredPosition: {x: -533.73035, y: -94.99999}
   m_SizeDelta: {x: 100, y: 119.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224809749521534922
@@ -361,7 +364,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224898845824689312
 RectTransform:
@@ -378,8 +381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: 64}
+  m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224955259122013670
 RectTransform:
