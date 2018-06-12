@@ -1,6 +1,24 @@
 ﻿{
-	"info": "CREDITS\n\nPROGRAMMING\nMaxim Korokin\nYura Korokin\n\nDESIGN\nMaxim Korokin\nKyrylo Stanchyk\nMaxim Pushkar\n\nSPRITES\nkenney.nl\nMaxim Korokin\nKyrylo Stanchyk\n\nTESTING\nMaxim Korokin\nYura Korokin\nKyrylo Stanchyk\nMaxim Pushkar",
+	"info": "CREDITS\n\nPROGRAMMING\nMaxim Korokin\nYura Korokin\n\nDESIGN\nMaxim Korokin\nKyrylo Stanchyk\nMaxim Pushkar\n\nSPRITES\nkenney.nl\nMaxim Korokin\nKyrylo Stanchyk\n\nTESTING\nMaxim Korokin\nYura Korokin\nKyrylo Stanchyk\nMaxim Pushkar\n\nMUSIC",
 	"pauseName": "PAUSE",
 	"winName": "WIN",
-	"winText": "You used {0} commands"
+	"winText": "You used {0} commands",
+	
+	"t1Name": "Introduction",
+    "t1Text": "You are a mighty knight who has sworn\nto protect his people.\n\nNow the danger is near! Ruthless orcs\nmove to your land. But orcs are stupid\nand afraid of knowledge. Any knowledge.\n\nYou must set off on a journey through\nthe kingdom, visit 10 towers and draw\nthe numbers on them. This is the only\nthing that can scare the orcs and save\nyour land from devastation.",
+
+    "t2Name": "Movement",
+    "t2Text": "Knights never back down!\n\nYou can only move forward,\nturn left and right.\n\nYour task is to make up the path the\nknight must follow from the beginning\nand up to the flag, which indicates the\nend of the level.",
+
+    "t3Name": "Doors and Levers",
+    "t3Text": "Sometimes the path can be closed.\n\nBut every door have a key...\nI ment lever, that opens it.\n\nA magical blue thread shows the\nconnection between the lever and\nthe door.\n\nJust push the lever and the door\nwill open.",
+
+    "t4Name": "Functions",
+	"t4Text": "You can put commands into functions\nand call them from the main page or\nother functions.\n\nThis allows you to reuse\ngroups of commands.",
+
+    "t5Name": "Enemies",
+    "t5Text": "These are the orcs and they want\nto stop you.\nSo you need to kill them.\nFortunately, you have a sword for this!\n\nBut be careful, they are extremely\naggressive and will attack as soon\nas you approach them.\n\nYou better be ready and raise the\nshield approaching them!",
+
+    "t6Name": "Patrols",
+    "t6Text": "Sometimes orcs patrol some zone.\nHowever, for some reason, these\nzones are quite obvious.\n\nYou can either kill or bypass them.\n\nOh, yes! They are VERY attentive\nand will attack you even if you\napproach them from behind!"
 }

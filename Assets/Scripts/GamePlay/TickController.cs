@@ -23,6 +23,7 @@ public class TickController : MonoBehaviour
         if (ticksStarted) return;
         foreach(Delegate d in TicksEvent.GetInvocationList())
         {
+            if (d == null) continue;
             ticksCoroutines.Add(StartCoroutine((IEnumerator)d.DynamicInvoke(tickTime)));
         }
     }

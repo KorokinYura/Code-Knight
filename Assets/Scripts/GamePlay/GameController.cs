@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     private int maxCommandsAmount;
     public int MaxCommandsAmount { get { return maxCommandsAmount; } }
     public int CommandsAmount { get; private set; }
+    public int CommandsUsed { get; private set; }
     [Space]
     [SerializeField]
     private GameObject mainCommandsList;
@@ -48,12 +49,28 @@ public class GameController : MonoBehaviour
 
     public void StartLevel()
     {
+        CountUsedCommands();
         tickController.StartTicks();
     }
     public void ResetLevel()
     {
         MapMakerController.Instance.LoadMap(MapMakerController.CurLoadString, false);
         tickController.StopTicks();
+        CommandsUsed = 0;
+    }
+
+    private void CountUsedCommands()
+    {
+        CommandsUsed = 0;
+
+        ShowCommandList(0);
+        CommandsUsed += mainCommandsList.transform.GetComponentsInChildren<CommandUI>().Length;
+        ShowCommandList(1);
+        CommandsUsed += func1CommandsList.transform.GetComponentsInChildren<CommandUI>().Length;
+        ShowCommandList(2);
+        CommandsUsed += func2CommandsList.transform.GetComponentsInChildren<CommandUI>().Length;
+
+        ShowCommandList(0);
     }
 
     public void ShowCommandList(int index)

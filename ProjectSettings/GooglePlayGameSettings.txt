@@ -1,2 +1,9 @@
 lastUpgrade=00950
 proj.pluginVersion=0.9.50
+proj.AppId=1045268535586
+and.BundleId=com.Anceag.CodeKnight
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--+app_id+--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e1045268535586%3c%2fstring%3e%0d%0a++%3c%21--+package_name+--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.Anceag.CodeKnight%3c%2fstring%3e%0d%0a++%3c%21--+achievement+High+Five+--%3e%0d%0a++%3cstring+name%3d%22achievement_high_five%22+translatable%3d%22false%22%3eCgkIorLw9rUeEAIQAQ%3c%2fstring%3e%0d%0a++%3c%21--+achievement+EZ+win%21+--%3e%0d%0a++%3cstring+name%3d%22achievement_ez_win%22+translatable%3d%22false%22%3eCgkIorLw9rUeEAIQAg%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Creators+--%3e%0d%0a++%3cstring+name%3d%22achievement_creators%22+translatable%3d%22false%22%3eCgkIorLw9rUeEAIQAw%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Monster+hunter+--%3e%0d%0a++%3cstring+name%3d%22achievement_monster_hunter%22+translatable%3d%22false%22%3eCgkIorLw9rUeEAIQBA%3c%2fstring%3e%0d%0a++%3c%21--+achievement+Tutorial+--%3e%0d%0a++%3cstring+name%3d%22achievement_tutorial%22+translatable%3d%22false%22%3eCgkIorLw9rUeEAIQBg%3c%2fstring%3e%0d%0a++%3c%21--+leaderboard+Best+algorithmers+--%3e%0d%0a++%3cstring+name%3d%22leaderboard_best_algorithmers%22+translatable%3d%22false%22%3eCgkIorLw9rUeEAIQBQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=1045268535586-ua1ms82uncqqcha6c5cl03um6lk3653l.apps.googleusercontent.com
+android.SetupDone=true

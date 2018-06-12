@@ -4,19 +4,31 @@ using UnityEngine;
 public class CampaignsMenuController : MonoBehaviour
 {
     private const string campaign1SaveName = "C1Save";
+    private const string campaign1CompleteName = "C1Completed";
 
     [SerializeField]
     private Level[] levels;
 
     private static int curLevelIndex = -1;
+    public static int CurLevelIndex { get { return curLevelIndex; } }
     private static int curLevelScore;
 
+    private static int levelsOpened = 0;
+    [SerializeField]
+    private int openedLevelsToShowAd;
+
     public static CampaignsMenuController Instance { get; private set; }
+
+    private long sumScore = 0;
 
     private void Awake()
     {
         Instance = this;
         MapMakerController.CurLoadString = null;
+        if (!PlayerPrefs.HasKey(campaign1CompleteName))
+        {
+            PlayerPrefs.SetInt(campaign1CompleteName, 0);
+        }
     }
 
     private void Start()
@@ -24,6 +36,14 @@ public class CampaignsMenuController : MonoBehaviour
         if (curLevelIndex > -1 && curLevelScore > 0)
         {
             LoadProgress();
+
+            if (curLevelIndex == 4) AchievementsSystem.UnclockAchievement("High five");
+            if (curLevelIndex == 9)
+            {
+                PlayerPrefs.SetInt(campaign1CompleteName, 1);
+                AchievementsSystem.UnclockAchievement("Ez win");
+            }
+
             int score = levels[curLevelIndex].HighScore;
             if (score == 0 || score > curLevelScore)
                 levels[curLevelIndex].HighScore = curLevelScore;
@@ -46,10 +66,11 @@ public class CampaignsMenuController : MonoBehaviour
     {
         bool availables = true;
         string[] levelsSaves = saveString.Split(';');
-        for(int i = 0; i < levelsSaves.Length && i < levels.Length; i++)
+        for (int i = 0; i < levelsSaves.Length && i < levels.Length; i++)
         {
             int highScore;
             int.TryParse(levelsSaves[i], out highScore);
+            sumScore += highScore;
             levels[i].HighScore = availables ? (highScore > 0 ? highScore : 0) : 0;
             levels[i].Available = availables;
             availables = availables ? highScore > 0 : false;
@@ -67,7 +88,7 @@ public class CampaignsMenuController : MonoBehaviour
     private string LevelsToSaveString()
     {
         StringBuilder sb = new StringBuilder();
-        foreach(Level level in levels)
+        foreach (Level level in levels)
         {
             sb.Append(string.Format("{0};", (level.HighScore > 0 ? level.HighScore.ToString() : string.Empty)));
         }
@@ -79,7 +100,7 @@ public class CampaignsMenuController : MonoBehaviour
     {
         StringBuilder sb = new StringBuilder();
         string separator = ";";
-        for(int i = 0; i < levels.Length - 1; i++)
+        for (int i = 0; i < levels.Length - 1; i++)
         {
             sb.Append(separator);
         }
@@ -88,9 +109,14 @@ public class CampaignsMenuController : MonoBehaviour
 
     public void SetCurrentLevel(Level level)
     {
-        for(int i = 0; i < levels.Length; i++)
+        if(++levelsOpened >= openedLevelsToShowAd)
         {
-            if(level == levels[i])
+            UnityAdsHelper.ShowRewardedAd();
+            levelsOpened = 0;
+        }
+        for (int i = 0; i < levels.Length; i++)
+        {
+            if (level == levels[i])
             {
                 curLevelIndex = i;
                 return;

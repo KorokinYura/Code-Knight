@@ -12,9 +12,9 @@ public class AimBehaviour : MapObjectBehaviour
             {
                 if(hit.transform != null && hit.transform.tag == "Player")
                 {
-                    CampaignsMenuController.SetCurrentLevelScore(GameController.Instance.CommandsAmount);
+                    CampaignsMenuController.SetCurrentLevelScore(GameController.Instance.CommandsUsed);
                     yield return new WaitForSeconds(tickTime / 2);
-                    PauseController.Instance.Win(GameController.Instance.CommandsAmount);
+                    PauseController.Instance.Win(GameController.Instance.CommandsUsed);
                 }
             }
             yield return new WaitForSeconds(tickTime);

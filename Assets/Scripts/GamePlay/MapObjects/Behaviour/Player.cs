@@ -20,7 +20,6 @@ public class Player : MapObjectBehaviour, IMortal
 
     public void Die()
     {
-        Debug.Log(Blocked);
         StartCoroutine(DieCoroutine(TickController.TickTime * 2));
         IsDead = true;
         GetComponent<Animator>().SetTrigger("Death");
@@ -40,9 +39,7 @@ public class Player : MapObjectBehaviour, IMortal
     }
     private IEnumerator BlockCoroutine()
     {
-        Debug.Log(Blocked);
         yield return new WaitForSeconds(TickController.TickTime * 3);
         Blocked = false;
-        Debug.Log(Blocked);
     }
 }

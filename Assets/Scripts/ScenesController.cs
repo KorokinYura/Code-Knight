@@ -23,21 +23,35 @@ public class ScenesController : MonoBehaviour
 
     public void ToGameplay()
     {
-        SceneManager.LoadScene(gameplaySceneName);
+        StartCoroutine(LoadYourAsyncScene(gameplaySceneName));
+        //SceneManager.LoadScene(gameplaySceneName);
     }
 
     public void ToMapMaker()
     {
-        SceneManager.LoadScene(mapMakerSceneName);
+        StartCoroutine(LoadYourAsyncScene(mapMakerSceneName));
+        //SceneManager.LoadScene(mapMakerSceneName);
     }
 
     public void ToMainMenu()
     {
-        SceneManager.LoadScene(mainMenuSceneName);
+        StartCoroutine(LoadYourAsyncScene(mainMenuSceneName));
+        //SceneManager.LoadScene(mainMenuSceneName);
     }
 
     public void ToCampaignsMenu()
     {
-        SceneManager.LoadScene(campaignsMenuSceneName);
+        StartCoroutine(LoadYourAsyncScene(campaignsMenuSceneName));
+        //SceneManager.LoadScene(campaignsMenuSceneName);
+    }
+    
+    IEnumerator LoadYourAsyncScene(string name)
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(name);
+        
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 }

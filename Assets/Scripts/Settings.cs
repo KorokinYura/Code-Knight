@@ -92,6 +92,7 @@ public class Settings : MonoBehaviour
         PlayerPrefs.SetString(settingsSaveName, string.Format("{0};{1};{2}", settings[0], settings[1], settings[2]));
         LoadSettings();
         GetComponent<AudioSource>().enabled = MusicOn;
+        MusicController.Instance.Play();
     }
     public void TriggerSound()
     {

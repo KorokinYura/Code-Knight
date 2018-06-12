@@ -10,7 +10,7 @@ public class MapObjectController : MonoBehaviour
 
     private bool isDragging = false;
     private bool moved = false;
-    public яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя Type { get; set; }
+    public MapObjectType Type { get; set; }
 
     private void Update()
     {
@@ -65,7 +65,7 @@ public class MapObjectController : MonoBehaviour
             ITriggerable t = GetComponent<ITriggerable>();
             if(t != null)
             {
-                GameObject obj = MapObjectUI.CreateMapObject(яяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяяя.Lever);
+                GameObject obj = MapObjectUI.CreateMapObject(MapObjectType.Lever);
                 obj.transform.position = transform.position;
                 obj.GetComponent<Lever>().TriggerObj = gameObject;
             }

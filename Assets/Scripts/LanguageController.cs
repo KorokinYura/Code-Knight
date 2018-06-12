@@ -43,4 +43,22 @@ public class Language
     public string pauseName;
     public string winName;
     public string winText;
+
+    public string t1Name;
+    public string t1Text;
+
+    public string t2Name;
+    public string t2Text;
+
+    public string t3Name;
+    public string t3Text;
+
+    public string t4Name;
+    public string t4Text;
+
+    public string t5Name;
+    public string t5Text;
+
+    public string t6Name;
+    public string t6Text;
 }

@@ -13,6 +13,11 @@ public class Attack : Command
         IMortal m = hit.transform.GetComponent<IMortal>();
         if (m == null || m.Blocked) return false;
 
+        if(m is Enemy)
+        {
+            AchievementsSystem.UnclockAchievement("Monster hunter");
+        }
+
         m.Die();
         return true;
     }

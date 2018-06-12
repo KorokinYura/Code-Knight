@@ -3,7 +3,6 @@ SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/CampaignsMenu.unity
 Assets/Scenes/Gameplay.unity
-Assets/Scenes/MapMaker.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -122,6 +121,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Enemy
 7a75edc83a9f267c790ac1425865847a Assembly-CSharp.dll:.MapObjectUI
+e3ccff1dbdacbab0feb52fdc4f05bdc8 Assembly-CSharp.dll:.Tutorial
+9d326a6cd31c42c1ad0f598486cffbf7 Assembly-CSharp.dll:.Achievement
 22793a73fa9515f674f6a64917629a3a Assembly-CSharp.dll:.CommandsList
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MapObjectsDestroyer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenuController
@@ -129,6 +130,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 b7c455c7a61b5eb0e034173efd170264 Assembly-CSharp.dll:.Level
 91c24a60f6bbe19cc03fcdb801563f49 Assembly-CSharp.dll:.PointerDownUpTrigger
+88451c6cb6924d47687bd2ec9bd86c83 Assembly-CSharp.dll:.TutorialShower
 d834c0d4a2f949215680516d4a470e79 Assembly-CSharp.dll:.Settings
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -145,7 +147,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 7a75edc83a9f267c790ac1425865847a Assembly-CSharp.dll:.CommandsEditorCommand
-8bb38cf90f3675586c1ae7aa57fc6932 Assembly-CSharp.dll:.MapMakerController
+bf00c6ae5be0a97e776eda2403639bd7 Assembly-CSharp.dll:.MapMakerController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -164,8 +166,9 @@ ac3b8ca6f26c6bcf4931a20018f086f2 Assembly-CSharp.dll:.CameraController
 9335b8f73702fe14ce33f440784bfa14 Assembly-CSharp.dll:.PauseController
 b4592d6eb7f8add5835bcc231e173a15 Assembly-CSharp.dll:.ScenesController
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+de90e997fa8399eef93e9039e719d9b6 Assembly-CSharp.dll:.AchievementsSystem
 7a75edc83a9f267c790ac1425865847a Assembly-CSharp.dll:.CommandUI
-e43c82424c6ce1c9156808242bc601d6 Assembly-CSharp.dll:.CampaignsMenuController
+152d4d4de807eb9504287c05a4b32d0f Assembly-CSharp.dll:.CampaignsMenuController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Player
 0a8781ff7e4b6c69700955031b8665e1 Assembly-CSharp.dll:.Door
 006c9a7a2276eae72a6f1f187a541a5c Assembly-CSharp.dll:.Lever
