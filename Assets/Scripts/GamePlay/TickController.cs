@@ -21,6 +21,7 @@ public class TickController : MonoBehaviour
     public void StartTicks()
     {
         if (ticksStarted) return;
+
         foreach(Delegate d in TicksEvent.GetInvocationList())
         {
             if (d == null) continue;

@@ -37,7 +37,7 @@ public class CampaignsMenuController : MonoBehaviour
         {
             LoadProgress();
 
-            if (curLevelIndex == 4) AchievementsSystem.UnclockAchievement("High five");
+            if (curLevelIndex == 4) AchievementsSystem.UnclockAchievement("High Five");
             if (curLevelIndex == 9)
             {
                 PlayerPrefs.SetInt(campaign1CompleteName, 1);
