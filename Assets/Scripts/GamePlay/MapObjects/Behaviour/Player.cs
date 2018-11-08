@@ -27,7 +27,7 @@ public class Player : MapObjectBehaviour, IMortal
     private IEnumerator DieCoroutine(float time)
     {
         yield return new WaitForSeconds(time);
-        //GameController.Instance.ResetLevel();
+        GameController.Instance.ResetLevel();
         gameObject.SetActive(false);
         //Destroy(gameObject);
     }
