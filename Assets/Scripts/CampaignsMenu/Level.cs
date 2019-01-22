@@ -46,7 +46,8 @@ public class Level : MonoBehaviour, IPointerUpHandler
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        if (Available)
+        PointerDownUpTrigger trigger = GetComponent<PointerDownUpTrigger>();
+        if (Available && (trigger == null || trigger.Clicked))
         {
             CampaignsMenuController.Instance.SetCurrentLevel(this);
             MapMakerController.CurLoadString = loadString;
