@@ -109,11 +109,11 @@ public class CampaignsMenuController : MonoBehaviour
 
     public void SetCurrentLevel(Level level)
     {
-        if(++levelsOpened >= openedLevelsToShowAd)
-        {
-            UnityAdsHelper.ShowRewardedAd();
-            levelsOpened = 0;
-        }
+        //if(++levelsOpened >= openedLevelsToShowAd)
+        //{
+        //    UnityAdsHelper.ShowRewardedAd();
+        //    levelsOpened = 0;
+        //}
         for (int i = 0; i < levels.Length; i++)
         {
             if (level == levels[i])
